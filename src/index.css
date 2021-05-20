@@ -15,9 +15,8 @@ code {
 }
 @media (min-width: 320px) and (max-width: 424px){
   body{
-    width: 32rem;
+    width: 33rem;
     zoom: 75.45%;
-    display: grid;
 
   }
 }
