@@ -28,6 +28,7 @@
   justify-content: center !important;
   display: grid;
   align-items: center;
+  text-align: center;
 }
 .card-content {
   background-color: rgba(251, 185, 6, 0.08) !important;
