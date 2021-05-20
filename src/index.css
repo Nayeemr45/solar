@@ -24,6 +24,7 @@ code {
 }
 @media (min-width: 385px) and (max-width: 429px){
   body{
+    width: 30rem;
     zoom: 60%;
     overflow-x: hidden;
 
