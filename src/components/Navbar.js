@@ -116,6 +116,11 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: '25px !important'
     }
   },
+  "@media (min-width: 1441px) and (max-width: 2561px)": {
+    menuButton: {
+      marginLeft: '25px !important'
+    }
+  },
   "@media (min-width: 768px) and (max-width: 1025px)": {
     menuButton: {
       marginLeft: '10px !important',
