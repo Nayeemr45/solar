@@ -16,7 +16,8 @@ code {
 @media (min-width: 320px) and (max-width: 424px){
   body{
     width: 33rem;
-    zoom: 72%;
+    zoom: 73%;
+    
 
   }
 }
