@@ -74,6 +74,7 @@
 
 .section-1 {
     background-image: url(../Images/Artboard2.jpg) !important;
+    width: 33.65rem !important;
 }
 .heading{
     font-size: 95px !important;
