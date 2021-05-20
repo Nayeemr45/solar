@@ -467,12 +467,15 @@
     height: 300px;
   }
   .content-5-rectangle{
-    width: 80px;
+    width: 85px;
     height: 180px;
   }
   .content-5-button{
     padding-left: 0px !important;
     font-size: 14px !important;
+  }
+  .content-5-box-right{
+    padding-left: 19px;
   }
 }
 
@@ -542,6 +545,7 @@
   .content-6-background {
     bottom: 0px !important;
     height: 750px !important;
+    width: 33.65rem;
   }
   .content-6-heading{
     font-size: 28px !important;
