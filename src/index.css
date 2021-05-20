@@ -14,7 +14,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@media (min-width: 320px) and (max-width: 425px){
+/* @media (min-width: 320px) and (max-width: 425px){
   body{
     width: 33rem;
     zoom: 73%;
@@ -37,3 +37,4 @@ code {
 
   }
 }
+ */
