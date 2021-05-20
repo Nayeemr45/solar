@@ -107,8 +107,11 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: '90px',
     color: '#3B3B40',
     textTransform: 'none',
+    [theme.breakpoints.down('xs')]: {
+      marginLeft: '40px',
+    },
   },
-  "@media (min-width: 1366px) and (max-width: 1441px)": {
+  "@media (min-width: 1024px) and (max-width: 1441px)": {
     menuButton: {
       marginLeft: '25px !important'
     }
