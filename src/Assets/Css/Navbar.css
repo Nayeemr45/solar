@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Gotham-Book';
+  src: local('Gotham-Book'), url(../Fonts/GothamBook.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: local('Gotham-Medium'), url(../Fonts/GothamMedium.ttf) format('truetype');
+}
+.link {
+  font-family: 'Gotham-Book' !important;
+  font-size: 15px;
+  color: #3b3b40 !important;
+  padding-right: 40px;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+.contactButton {
+  background-color: #fbb906 !important;
+  color: #fff !important;
+  border-radius: 25px !important;
+  padding: 17px 35px !important;
+  font-size: 15px !important;
+  font-family: 'Gotham-Medium' !important;
+  margin-left: 90px;
+  text-transform: none !important;
+  text-decoration: none;
+}
+.contactButton:hover {
+  background-color: #fbb906;
+  box-shadow: 0px 2px 10px #888888;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+@media (min-width: 320px) and (max-width: 769px) {
+  .menuButton {
+    margin-left: 40px !important;
+  }
+  .contactButton {
+    margin-left: -30px;
+  }
+  .MuiListItem-button {
+    margin-bottom: 30px !important;
+  }
+}
+@media (min-width: 1024) and (max-width: 1441px) {
+  .contactButton {
+    margin-left: 25px !important;
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1441px) {
+  .contactButton {
+    margin-left: 20px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 30px !important;
+    font-size: 15px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+  .contactButton {
+    margin-left: 20px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 30px !important;
+    font-size: 15px !important;
+  }
+}
+

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="491" viewBox="0 0 1366 491">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_698" data-name="Rectangle 698" width="1366" height="491" transform="translate(-857 10101)" fill="#ffba00"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(857 -10101)" clip-path="url(#clip-path)">
+    <g id="Group_46047" data-name="Group 46047" transform="translate(2 1024)">
+      <rect id="Rectangle_697" data-name="Rectangle 697" width="1366" height="491" transform="translate(-859 9077)" fill="#18384d"/>
+    </g>
+    <g id="Group_46048" data-name="Group 46048">
+      <g id="Ellipse_13" data-name="Ellipse 13" transform="translate(-174 10351)" fill="none" stroke="#1e4056" stroke-width="55" opacity="0.1" style="mix-blend-mode: screen;isolation: isolate">
+        <ellipse cx="222.5" cy="223" rx="222.5" ry="223" stroke="none"/>
+        <ellipse cx="222.5" cy="223" rx="195" ry="195.5" fill="none"/>
+      </g>
+      <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(-156 9971)" fill="none" stroke="#1e4056" stroke-width="55" opacity="0.1" style="mix-blend-mode: screen;isolation: isolate">
+        <circle cx="140.5" cy="140.5" r="140.5" stroke="none"/>
+        <circle cx="140.5" cy="140.5" r="113" fill="none"/>
+      </g>
+      <g id="Ellipse_15" data-name="Ellipse 15" transform="translate(368 10210)" fill="none" stroke="#1e4056" stroke-width="48" opacity="0.1" style="mix-blend-mode: screen;isolation: isolate">
+        <circle cx="140.5" cy="140.5" r="140.5" stroke="none"/>
+        <circle cx="140.5" cy="140.5" r="116.5" fill="none"/>
+      </g>
+      <g id="Ellipse_16" data-name="Ellipse 16" transform="translate(-747 9806)" fill="none" stroke="#1e4056" stroke-width="55" opacity="0.1" style="mix-blend-mode: screen;isolation: isolate">
+        <ellipse cx="222.5" cy="223" rx="222.5" ry="223" stroke="none"/>
+        <ellipse cx="222.5" cy="223" rx="195" ry="195.5" fill="none"/>
+      </g>
+      <g id="Ellipse_17" data-name="Ellipse 17" transform="translate(-647 10434)" fill="none" stroke="#1e4056" stroke-width="55" opacity="0.1" style="mix-blend-mode: screen;isolation: isolate">
+        <circle cx="140.5" cy="140.5" r="140.5" stroke="none"/>
+        <circle cx="140.5" cy="140.5" r="113" fill="none"/>
+      </g>
+      <g id="Ellipse_18" data-name="Ellipse 18" transform="translate(-998 10210)" fill="none" stroke="#1e4056" stroke-width="48" opacity="0.1" style="mix-blend-mode: screen;isolation: isolate">
+        <circle cx="140.5" cy="140.5" r="140.5" stroke="none"/>
+        <circle cx="140.5" cy="140.5" r="116.5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
