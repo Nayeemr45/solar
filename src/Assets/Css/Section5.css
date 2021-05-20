@@ -431,7 +431,7 @@
   }
   .content-5-subheading-1 {
     position: relative;
-    padding-top: 300px;
+    padding-top: 320px;
   }
   .content-5-subheading-2, .content-5-subheading-1 {
     font-size: 19px !important;
@@ -549,8 +549,8 @@
   }
   .content-6-heading{
     font-size: 28px !important;
-    padding-top: 30px;
-    padding-bottom: 320px;
+        padding-top: 25px;
+    padding-bottom: 340px;
   }
   .content-6-list {
     font-size: 14px !important;
