@@ -17,7 +17,7 @@ code {
   body{
     width: 33rem;
     zoom: 73%;
-    
+    overflow-x: hidden;
 
   }
 }
