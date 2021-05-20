@@ -42,6 +42,9 @@
 .card-content:hover > .sub-title {
   color: #fff !important;
 }
+.card-content:hover > .icon-avatar {
+  content: url(../Icons/icon5_hover.svg);
+}
 
 .title {
   font-size: 22px !important;
