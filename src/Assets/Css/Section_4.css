@@ -84,8 +84,8 @@
 .section-4-card {
   margin: 10px;
   margin-top: 0px;
-  margin-bottom: 100px;
-}
+/*   margin-bottom: 100px;
+ */}
 .offer-button-div{
   margin-top: 50px;
   padding-bottom: 100px;
@@ -104,15 +104,15 @@
   }
   .sectoin-4-paragraph-2-div{
     height: 80px;
-    margin-bottom: 0px !important;
-  }
+/*     margin-bottom: 0px !important;
+ */  }
   .sectoin-4-grid-3{
     grid-template-columns: 0.25fr 1fr 0.25fr;
     margin-bottom: 50px;
     justify-content: center;
   }
   .sectoin-4-heading {
-    font-size: 32px !important;
+    font-size: 28px !important;
   }
   .sectoin-4-paragraph {
     font-size: 16px !important;
