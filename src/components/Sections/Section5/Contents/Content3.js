@@ -15,44 +15,58 @@ const Content3 = () => {
           </Typography>
           <Grid container item xs={12} sm={12} className="content-3-grid">
           <Grid item xs={12} sm={5}>
-          <Typography variant="h4" gutterBottom className="content-3-list">
-            <span className="content-3-list-icon"><img src={Check_icon} alt={''} />
+            <div className="content-3-list-div">
+            <span className="content-3-list-icon"><img src={Check_icon} alt={''} className="content-3-list-icon-img"/>
             </span>
+          <Typography variant="h4" gutterBottom className="content-3-list">
             Reduction of electricity costs through own use of solar energy
           </Typography>
-          <Typography variant="h4" gutterBottom className="content-3-list">
-            <span className="content-3-list-icon"><img src={Check_icon} alt={''} />
+            </div>
+             <div className="content-3-list-div">
+            <span className="content-3-list-icon"><img src={Check_icon} alt={''} className="content-3-list-icon-img"/>
             </span>
+          <Typography variant="h4" gutterBottom className="content-3-list">
             Additional income from the EEG feed-in allowance
           </Typography>
-          <Typography variant="h4" gutterBottom className="content-3-list">
-            <span className="content-3-list-icon"><img src={Check_icon} alt={''} />
+          </div>
+           <div className="content-3-list-div">
+            <span className="content-3-list-icon"><img src={Check_icon} alt={''} className="content-3-list-icon-img"/>
             </span>
+          <Typography variant="h4" gutterBottom className="content-3-list">
             Electricity storage balances production fluctuations
           </Typography>
-          <Typography variant="h4" gutterBottom className="content-3-list">
-            <span className="content-3-list-icon"><img src={Check_icon} alt={''} />
+          </div>
+           <div className="content-3-list-div">
+            <span className="content-3-list-icon"><img src={Check_icon} alt={''} className="content-3-list-icon-img"/>
             </span>
+          <Typography variant="h4" gutterBottom className="content-3-list">
             Climate-friendly power generation
           </Typography>
+          </div>
           </Grid>
           <Grid item xs={12} sm={2}></Grid>
           <Grid item xs={12} sm={5}>
-          <Typography variant="h4" gutterBottom className="content-3-list">
-            <span className="content-3-list-icon"><img src={Check_icon} alt={''} />
+           <div className="content-3-list-div">
+            <span className="content-3-list-icon"><img src={Check_icon} alt={''} className="content-3-list-icon-img"/>
             </span>
+          <Typography variant="h4" gutterBottom className="content-3-list">
             Operation of charging stations for electric cars possible
           </Typography>
-          <Typography variant="h4" gutterBottom className="content-3-list">
-            <span className="content-3-list-icon"><img src={Check_icon} alt={''} />
+          </div>
+           <div className="content-3-list-div">
+            <span className="content-3-list-icon"><img src={Check_icon} alt={''} className="content-3-list-icon-img"/>
             </span>
+          <Typography variant="h4" gutterBottom className="content-3-list">
             Photovoltaic systems are low maintenance and trouble-free
           </Typography>
-          <Typography variant="h4" gutterBottom className="content-3-list">
-            <span className="content-3-list-icon"><img src={Check_icon} alt={''} />
+          </div>
+           <div className="content-3-list-div">
+            <span className="content-3-list-icon"><img src={Check_icon} alt={''} className="content-3-list-icon-img"/>
             </span>
+          <Typography variant="h4" gutterBottom className="content-3-list">
             25-year performance guarantee * on E.ON solar systems
           </Typography>
+          </div>
         </Grid>
         
         </Grid>

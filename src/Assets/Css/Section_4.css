@@ -223,7 +223,7 @@
     }
   }
   
-  @media (min-width: 1280px) and (max-width: 1441px) {
+  @media (min-width: 1280px) and (max-width: 1440px) {
     .sectoin-4-img{
       width: 250px !important;
     }
@@ -256,7 +256,7 @@
     }
     .sectoin-4-grid-3 {
       display: grid !important;
-      grid-template-columns: 0.35fr 0.25fr 0.25fr 0.25fr 0.25fr 0.35fr;
+      grid-template-columns: 0.75fr 0.5fr 0.5fr 0.5fr 0.5fr 0.75fr;
       justify-items: center;
   }
     .sectoin-4-grid-5{

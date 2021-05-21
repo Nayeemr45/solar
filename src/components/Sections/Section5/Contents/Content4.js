@@ -13,7 +13,7 @@ const Content4 = () => {
             </Box>
           </Grid>
           <Grid item xs={12} sm={1}></Grid>
-          <Grid item xs={12} sm={3}>
+          <Grid item xs={12} sm={4}>
             <Box className="content-4-box-right">
               <Typography
                 variant="h4"
