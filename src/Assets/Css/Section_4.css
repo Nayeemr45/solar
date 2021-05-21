@@ -142,6 +142,7 @@
     grid-column: 2 / 3;
     max-width: min-content !important;
     max-height: 400px;
+    margin-bottom: 30px !important;
   }
   .sectoin-4-grid-6{
     grid-column: 2 / 3;
