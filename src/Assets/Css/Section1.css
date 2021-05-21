@@ -25,7 +25,7 @@
 .heading {
   font-size: 119px !important;
   font-weight: 600 !important;
-  opacity: 10% !important;
+  opacity: 10%;
   line-height: 0.9 !important;
   font-family: 'Gotham-bold' !important;
   text-align: left !important;
@@ -77,7 +77,6 @@
   .heading {
     font-size: 54px !important;
     font-weight: 600 !important;
-    opacity: 10% !important;
     line-height: 1.059 !important;
     font-family: 'Gotham-bold' !important;
     text-align: left !important;
