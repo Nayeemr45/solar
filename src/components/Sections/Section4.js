@@ -81,36 +81,36 @@ const Section4 = () => {
       </div>
       <div>
         <Grid container className="sectoin-4-grid-3">
-          <Grid item xs={2} sm={2} className="sectoin-4-grid-4"></Grid>
-          <Grid item xs={8} sm={2} className="sectoin-4-grid-5">
+          <Grid item  sm={1} xl={2} className="sectoin-4-grid-4"></Grid>
+          <Grid item  sm={2} xl={2} className="sectoin-4-grid-5">
             <Section4Cards
               title={'Unverbindliches Angebot anfordern'}
               subtitle={'Mit unserem solarrenchner'}
               icon={Icon1} Number_Icon={Number_Icon1}
             />
           </Grid>
-          <Grid item xs={8} sm={2} className="sectoin-4-grid-6">
+          <Grid item  sm={2} xl={2} className="sectoin-4-grid-6">
             <Section4Cards
               title={'Beratung'}
               subtitle={'Durch lokalen E.on solarexperten'}
               icon={Icon2} Number_Icon={Number_Icon2}
             />
           </Grid>
-          <Grid item xs={8} sm={2} className="sectoin-4-grid-7">
+          <Grid item  sm={2} xl={2} className="sectoin-4-grid-7">
             <Section4Cards
               title={'Installation'}
               subtitle={'Durch lokalen E.on partner'}
               icon={Icon3} Number_Icon={Number_Icon3}
             />
           </Grid>
-          <Grid item xs={8} sm={2} className="sectoin-4-grid-8">
+          <Grid item  sm={2} xl={2} className="sectoin-4-grid-8">
             <Section4Cards
               title={'Solarstrom mutzen'}
               subtitle={'Sparen und profitieren'}
               icon={Icon4} Number_Icon={Number_Icon4}
             />
           </Grid>
-          <Grid item xs={2} sm={2} className="sectoin-4-grid-9"></Grid>
+          <Grid item  sm={1} xl={2} className="sectoin-4-grid-9"></Grid>
         </Grid>
       </div>
       <div className="offer-button-div">
