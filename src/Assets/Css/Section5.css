@@ -287,6 +287,9 @@
   font-family: 'Gotham-Medium' !important;
   text-transform: none !important;
 }
+.content-3-list-div {
+  display: flex;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .content-3 {
     margin-top: 30px;

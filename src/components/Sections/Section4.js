@@ -64,7 +64,7 @@ const Section4 = () => {
         <Grid item xs></Grid>
       </Grid>
       <div className="offer-div">
-        <Grid container>
+        <Grid container className="sectoin-4-grid-offer-div">
           <Grid item xs={2} sm={2}></Grid>
           <Grid item container xs sm className="sectoin-4-grid-2">
           

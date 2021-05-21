@@ -195,7 +195,7 @@
     }
   }
  
-  @media (min-width: 767px) and (max-width: 1025px) {
+  @media (min-width: 767px) and (max-width: 1024px) {
     .sectoin-4-img{
       width: 220px !important;
     }
@@ -204,6 +204,15 @@
       grid-template-columns: 0.25fr 1fr 1fr 1fr 1fr 0.25fr;
       grid-column-gap: 15px !important;
 
+    }
+    .sectoin-4-grid-offer-div{
+      display: grid !important;
+    }
+    .section-4-card-content {
+      min-width: 210px !important;
+    }
+    .section-4-icon-avatar{
+      width: 180px;
     }
     .sectoin-4-grid-5{
       max-width: min-content !important;
@@ -223,7 +232,7 @@
     }
   }
   
-  @media (min-width: 1280px) and (max-width: 1440px) {
+  @media (min-width: 1025px) and (max-width: 1440px) {
     .sectoin-4-img{
       width: 250px !important;
     }
