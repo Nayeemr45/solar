@@ -61,8 +61,8 @@
   margin-top: 30px !important;
 }
 .icon {
-  width: 16px !important;
-  height: 16px !important;
+  width: 30px !important;
+  height: 20px !important;
   padding-left: 10px !important;
   justify-content: flex-end !important;
 }
@@ -108,8 +108,8 @@
     text-transform: none !important;
   }
   .icon {
-    width: 16px !important;
-    height: 16px !important;
+   width: 30px !important;
+    height: 20px !important;
     padding-left: 10px !important;
     justify-content: flex-end !important;
   }

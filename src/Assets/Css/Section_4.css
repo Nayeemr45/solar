@@ -98,6 +98,9 @@
   .offer-div{
     display: none !important;
   }
+  .offer-button {
+    font-size: 12px !important;
+  }
   .sectoin-4-paragraph-grid{
     margin-bottom: 30px;
   }
