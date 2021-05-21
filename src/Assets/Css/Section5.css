@@ -19,12 +19,14 @@
 .content-1 {
   /*   height: 700px;
  */
+ margin-top: 100px;
   margin-bottom: 100px;
 }
 .content-1-heading {
   font-size: 36px !important;
   font-family: 'Gotham-Bold' !important;
   text-align: left;
+  line-height: 2.25 !important;
 }
 .content-1-list {
   font-size: 20px !important;
@@ -73,6 +75,7 @@
   .content-1-heading {
     font-size: 20px !important;
     margin-bottom: 20px !important;
+    line-height: 1.25 !important;
   }
   .content-1-list {
     font-size: 12px !important;

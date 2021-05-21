@@ -58,6 +58,7 @@
   font-family: 'Gotham-Medium' !important;
   color: #fbb906 !important;
   align-items: center;
+  justify-content: center;
 }
 .icon-avatar {
   margin-left: auto;

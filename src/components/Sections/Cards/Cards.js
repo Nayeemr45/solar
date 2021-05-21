@@ -19,7 +19,7 @@ const Cards = ({title , subtitle, icon}) => {
               <Typography variant="h5" component="h2" className="title">
                 {title}
               </Typography>
-              <Typography variant="body2" component="p" className="sub-title">
+              <Typography variant="h5" component="p" className="sub-title">
                 {subtitle}
 {/*                 <Avatar src={Icon} className="icon"></Avatar>
  */}              </Typography>

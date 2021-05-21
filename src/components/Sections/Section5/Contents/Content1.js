@@ -13,7 +13,7 @@ const Content1 = () => {
       <Grid container>
         <Grid item xs={1}></Grid>
         <Grid item xs>
-          <Grid item xs={5} className="content-1-grid">
+          <Grid item xs className="content-1-grid">
             <Typography variant="h4" gutterBottom className="content-1-heading">
               Frequent Questions About{' '}
               <span style={{color: '#FFBA00'}}>Solar Energy</span>
