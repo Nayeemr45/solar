@@ -37,8 +37,8 @@ const Section1 = () => {
       <div className={classes.root}>
         <Box className="section-1">
           <Grid container className="section-1-grid">
-              <Grid item sm={1} xs={2}></Grid>
-              <Grid item sm={4} xs>
+              <Grid item sm={1} className="section-1-grid-1"></Grid>
+              <Grid item sm={4} className="section-1-grid-2">
                 <Typography varient="h3" className="heading">
                   SOLAR SYSTEMS
                 </Typography>
@@ -47,10 +47,10 @@ const Section1 = () => {
                   Solar Systems For You By Sol1
                 </Typography>
               </Grid>
-              <Grid item sm={2} xs={2}></Grid>
-              <Grid item sm={4} xs={8}>
-                <List className={classes.root}>
-                  <ListItem>
+              <Grid item sm={2} className="section-1-grid-3"></Grid>
+              <Grid item sm={4} className="section-1-grid-4">
+                <List >
+                  <ListItem className="section-1-list">
                     <ListItemAvatar>
                       <Avatar src={Icon1}></Avatar>
                     </ListItemAvatar>
@@ -59,7 +59,7 @@ const Section1 = () => {
                       className="list-item-text"
                     />
                   </ListItem>
-                  <ListItem>
+                  <ListItem className="section-1-list">
                     <ListItemAvatar>
                       <Avatar src={Icon2}></Avatar>
                     </ListItemAvatar>
@@ -68,7 +68,7 @@ const Section1 = () => {
                       className="list-item-text"
                     />
                   </ListItem>
-                  <ListItem className="list-item">
+                  <ListItem className="section-1-list">
                     <ListItemAvatar>
                       <Avatar src={Icon3}></Avatar>
                     </ListItemAvatar>
@@ -86,7 +86,7 @@ const Section1 = () => {
                   </ListItem>
                 </List>
               </Grid>
-              <Grid item sm={1} xs={2}></Grid>
+              <Grid item sm={1} className="section-1-grid-5"></Grid>
           </Grid>
         </Box>
       </div>

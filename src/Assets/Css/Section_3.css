@@ -97,8 +97,8 @@
   .Section_3_img {
     position: relative;
     z-index: 1;
-    width: 310px;
-    height: 370px;
+    width: 250px;
+    height: 360px;
   }
   .sectoin-3-heading {
     font-size: 28px !important;
@@ -116,7 +116,7 @@
       margin-top: 20px !important;
   }
   .sectoin-3-paragraph {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   .sectio-3-avatar {
     justify-content: center;

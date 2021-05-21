@@ -1,138 +1,157 @@
 @font-face {
-    font-family: 'Gotham-bold';
-    src: local('Gotham-bold'), url(../Fonts/Gotham-Bold.otf) format('truetype');
-  }
+  font-family: 'Gotham-bold';
+  src: local('Gotham-bold'), url(../Fonts/Gotham-Bold.otf) format('truetype');
+}
 @font-face {
-    font-family: 'Gotham-Medium';
-    src: local('Gotham-Medium'), url(../Fonts/GothamMedium.ttf) format('truetype');
-  }
-
-  .section-1{
-    background-image: url(../Images/Artboard1.jpg);
-    height: 610px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    color: #fff;
-  }
-  .section-1-grid{
-      grid-column-gap: 0px !important;
-  }
-.heading{
-    font-size: 119px !important;
-    font-weight: 600 !important;
-    opacity: 10% !important;
-    line-height: .9 !important;
-    font-family: 'Gotham-bold' !important;
-    text-align: left !important;
+  font-family: 'Gotham-Medium';
+  src: local('Gotham-Medium'), url(../Fonts/GothamMedium.ttf) format('truetype');
 }
-.heading2{
-    font-size: 48px !important;
-    font-weight: 600 !important;
-    line-height: 1.059 !important;
-    letter-spacing: 0.08em  !important;
-    font-family: 'Gotham-bold' !important;
-    text-align: left !important;
-    margin-top: -105px !important;
-}
-
-.MuiListItemText-primary{
-    font-size: 19px !important;
-    font-family: 'Gotham-Medium' !important;
-    line-height: 3.5 !important;
-}
-
-.MuiListItem-gutters{
-    padding: 0 !important;
-}
-
-.cal-button{
-    background-color:#FBB906 !important;
-    color:#fff !important;
-    border-radius:10px !important;
-    padding:10px 10px !important;
-    font-size:14px !important;
-    font-family: 'Gotham-Medium' !important;
-    text-transform:none !important;
-    margin-top: 30px !important;
-}
-.icon{
-    width: 16px !important;
-    height: 16px !important;
-    padding-left: 10px !important;
-    justify-content: flex-end !important;
-}
-.avatar{
-    justify-content: flex-end !important;
-
-}
-@media (min-width: 320px) and (max-width: 767px) {
 
 .section-1 {
+  background-image: url(../Images/Artboard1.jpg);
+  height: 610px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #fff;
+}
+.section-1-grid {
+  grid-column-gap: 0px !important;
+}
+.heading {
+  font-size: 119px !important;
+  font-weight: 600 !important;
+  opacity: 10% !important;
+  line-height: 0.9 !important;
+  font-family: 'Gotham-bold' !important;
+  text-align: left !important;
+}
+.heading2 {
+  font-size: 48px !important;
+  font-weight: 600 !important;
+  line-height: 1.059 !important;
+  letter-spacing: 0.08em !important;
+  font-family: 'Gotham-bold' !important;
+  text-align: left !important;
+  margin-top: -105px !important;
+}
+
+.MuiListItemText-primary {
+  font-size: 19px !important;
+  font-family: 'Gotham-Medium' !important;
+  line-height: 3.5 !important;
+}
+
+.MuiListItem-gutters {
+  padding: 0 !important;
+}
+
+.cal-button {
+  background-color: #fbb906 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+  padding: 10px 10px !important;
+  font-size: 14px !important;
+  font-family: 'Gotham-Medium' !important;
+  text-transform: none !important;
+  margin-top: 30px !important;
+}
+.icon {
+  width: 16px !important;
+  height: 16px !important;
+  padding-left: 10px !important;
+  justify-content: flex-end !important;
+}
+.avatar {
+  justify-content: flex-end !important;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .section-1 {
     background-image: url(../Images/Artboard2.jpg) !important;
     width: 100% !important;
-}
-.heading{
-    font-size: 95px !important;
+  }
+  .heading {
+    font-size: 54px !important;
     font-weight: 600 !important;
     opacity: 10% !important;
     line-height: 1.059 !important;
     font-family: 'Gotham-bold' !important;
     text-align: left !important;
-    margin: 0px 30px !important;
-}
-.heading2{
-    font-size: 35px !important;
+    /*     margin: 0px 30px !important;
+ */
+    padding-bottom: 55px;
+  }
+  .heading2 {
+    font-size: 20px !important;
     font-weight: 600 !important;
     line-height: 1.059 !important;
-    letter-spacing: 0.08em  !important;
+    letter-spacing: 0.08em !important;
     font-family: 'Gotham-bold' !important;
     text-align: left !important;
-    margin: 0px 35px !important;
-    margin-top: -105px !important;}
-
-.cal-button{
-    background-color:#FBB906 !important;
-    color:#fff !important;
-    border-radius:8px !important;
-    padding:8px 8px !important;
-    font-size:12px !important;
+    /* margin: 0px 35px !important;
+    margin-top: -105px !important; */
+  }
+  .section-1-list{
+      padding-bottom: 20px !important;
+  }
+  .cal-button {
+    background-color: #fbb906 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    padding: 8px 8px !important;
+    font-size: 12px !important;
     font-family: 'Gotham-Medium' !important;
-    text-transform:none !important;
-}
-.icon{
+    text-transform: none !important;
+  }
+  .icon {
     width: 16px !important;
     height: 16px !important;
     padding-left: 10px !important;
     justify-content: flex-end !important;
-}
-.avatar{
+  }
+  .avatar {
     justify-content: flex-end !important;
-
-}
-.MuiListItemText-primary{
-    font-size: 14px !important;
+  }
+  .MuiListItemText-primary {
+    font-size: 10px !important;
     font-family: 'Gotham-Medium' !important;
     line-height: 3.5 !important;
-}
-.section-1-grid{
+  }
+  .section-1-grid {
     grid-column-gap: 0px !important;
+    display: grid !important;
+    grid-template-columns: 0.25fr 0.5fr 0.5fr 0.25fr;
+  }
+  .section-1-grid-1{
+      grid-column: 1 / 2;
+  }
+  .section-1-grid-2{
+      grid-column: 2 / 4;
+  }
+  .section-1-grid-3{
+      grid-column: 4 / 5;
+  }
+  .section-1-grid-4{
+      grid-column: 2 / 5;
+  }
+  .section-1-grid-5{
+      grid-column: 1 / 2;
+  }
 }
-} 
 @media (min-width: 768px) and (max-width: 1025px) {
-    .heading {
-        font-size: 80px !important;
-        line-height: 1.25 !important;
-    }
-    .heading2 {
-        font-size: 32px !important;
-        line-height: 1.75 !important;
-    }
-    .MuiListItemText-primary {
-        font-size: 15px !important;
-    }
+  .heading {
+    font-size: 80px !important;
+    line-height: 1.25 !important;
+  }
+  .heading2 {
+    font-size: 32px !important;
+    line-height: 1.75 !important;
+  }
+  .MuiListItemText-primary {
+    font-size: 15px !important;
+  }
 }
