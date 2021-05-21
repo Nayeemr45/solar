@@ -45,8 +45,8 @@ const Section3 = () => {
                 </Typography>
                 <Button className="cal-button">
                   Start The Solar Calculator
-                  <ListItemAvatar className="avatar">
-                    <Avatar src={Icon4} className="icon"></Avatar>
+                  <ListItemAvatar className="sectio-3-avatar">
+                    <Avatar src={Icon4} className="sectio-3-icon"></Avatar>
                   </ListItemAvatar>
                 </Button>
               </Grid>

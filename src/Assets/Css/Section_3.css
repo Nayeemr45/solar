@@ -106,7 +106,8 @@
   .img {
     margin-top: 80px !important;
     height: 650px !important;
-    width: 33.75rem !important;
+/*     width: 33.75rem !important;
+ */    width: 100%;
   }
   .sectoin-3-left {
     padding-top: 500px;
@@ -117,4 +118,15 @@
   .sectoin-3-paragraph {
     font-size: 16px !important;
   }
+  .sectio-3-avatar {
+    justify-content: center;
+    display: flex;
+}
+  .sectio-3-icon {
+    width: 16px !important;
+    height: 16px !important;
+    padding-left: 10px !important;
+    justify-content: flex-end !important;
+  }
+
 }
