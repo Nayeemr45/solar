@@ -130,7 +130,7 @@ const useStyles = makeStyles((theme) => ({
   },
   "@media (min-width: 320px) and (max-width: 767px)": {
     AppBar: {
-      width: '33.65rem'
+      width: '100%'
     },
 
   },
