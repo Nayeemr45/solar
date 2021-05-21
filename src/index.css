@@ -7,45 +7,48 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
-
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-@media (min-width: 320px) and (max-width: 425px){
-  body{
-    
+/* @media (min-width: 320px) and (max-width: 425px){
+ */
+@media (min-width: 320px) and (max-width: 374px) {
+  body {
     width: 33rem;
     zoom: 73%;
     overflow-x: hidden;
-
   }
 }
-@media (min-width: 375px) and (max-width: 414px){
-  body{
+@media (min-width: 375px) and (max-width: 414px) {
+  body {
     width: 23.5rem;
     zoom: 60%;
     overflow-x: hidden;
     /* width: 33rem;
     zoom: 73%;
     overflow-x: hidden; */
-
   }
 }
-
-@media (min-width: 425px) and (max-width: 767px){
-  body{
+@media (min-width: 415px) and (max-width: 425px) {
+  body {
     width: 33rem;
     zoom: 73%;
-
+    overflow-x: hidden;
   }
 }
-@media (min-width: 768px) and (max-width: 1025px){
-  body{
+
+@media (min-width: 425px) and (max-width: 767px) {
+  body {
+    width: 33rem;
+    zoom: 73%;
+  }
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+  body {
     width: 81rem;
     zoom: 73%;
-
   }
 }
