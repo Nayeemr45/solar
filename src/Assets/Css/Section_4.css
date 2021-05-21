@@ -163,6 +163,11 @@
     max-width: min-content !important;
     max-height: 400px;
   }
+
+  .section-4-card-content {
+    min-width: 260px !important;
+    min-height: 320px !important;
+  }
   }
   
   @media (min-width: 1024px) and (max-width: 1441px) {
