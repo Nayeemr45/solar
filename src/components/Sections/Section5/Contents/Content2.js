@@ -8,6 +8,7 @@ import Number_icon_4 from '../../../../Assets/Icons/Number-icon-4.png';
 import Number_icon_5 from '../../../../Assets/Icons/Number-icon-5.png';
 import '../../../../Assets/Css/Section5.css';
 import dot from '../../../../Assets/Icons/dot.svg';
+import Accordion from '../Accordion_question';
 
 const Content2 = () => {
   return (
@@ -65,39 +66,24 @@ const Content2 = () => {
               </Grid>
               <Grid item sm={6} xs={12}>
                 <Box className="contenet-2-box-2-right">
-                  <Typography
-                    variant="h4"
-                    gutterBottom
-                    className="content-2-list"
-                  >
-                    <span className="dot">
-                      <img src={dot} alt={''} />
-                    </span>
-                    Solar cells
-                  </Typography>
-                  <Typography
-                    variant="h4"
-                    gutterBottom
-                    className="content-2-list"
-                  >
-                    <hr />
-                    <span className="dot">
-                      <img src={dot} alt={''} />
-                    </span>
-                    Solar modules
-                  </Typography>
-                  <Typography
-                    variant="h4"
-                    gutterBottom
-                    className="content-2-list"
-                  >
-                    <hr />
-                    {/* <span className="dot">&#8226;</span> */}
-                    <span className="dot">
-                      <img src={dot} alt={''} />
-                    </span>
-                    Inverter
-                  </Typography>
+                <Accordion
+            text={'Solar cells'}
+            text2={
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+            }
+          />
+                <Accordion
+            text={'Solar modules'}
+            text2={
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+            }
+          />
+                <Accordion
+            text={'Inverter'}
+            text2={
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.'
+            }
+          />
                 </Box>
               </Grid>
             </Grid>
