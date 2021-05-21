@@ -16,9 +16,12 @@ code {
 }
 @media (min-width: 320px) and (max-width: 425px){
   body{
-    width: 33rem;
-    zoom: 73%;
+    width: 23rem;
+    zoom: 60%;
     overflow-x: hidden;
+    /* width: 33rem;
+    zoom: 73%;
+    overflow-x: hidden; */
 
   }
 }
