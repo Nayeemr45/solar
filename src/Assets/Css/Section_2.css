@@ -120,6 +120,21 @@
   .card{
     max-width: 350px;
   }
+  .card-content {
+    min-width: 215px !important;
+    max-width: 215px !important;
+    min-height: 250px !important;
+    justify-content: center !important;
+    display: grid;
+    align-items: center;
+    text-align: center;
+  }
+  .title {
+    font-size: 13px !important;
+  }
+  .sub-title {
+    font-size: 9px !important;
+  }
 }
 @media (min-width: 1280px) and (max-width: 1441px) {
   .section-2-grid {

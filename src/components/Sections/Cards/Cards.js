@@ -4,6 +4,8 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import '../../../Assets/Css/Section_2.css';
+import  Icon from '../../../Assets/Icons/Icon ionic-md-arrow-round-back.svg';
+import { Avatar } from '@material-ui/core';
 
 
 const Cards = ({title , subtitle, icon}) => {
@@ -19,6 +21,7 @@ const Cards = ({title , subtitle, icon}) => {
               </Typography>
               <Typography variant="body2" component="p" className="sub-title">
                 {subtitle}
+                <Avatar src={Icon} className="icon"></Avatar>
               </Typography>
             </CardContent>
           </CardActionArea>
