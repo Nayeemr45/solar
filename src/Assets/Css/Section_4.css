@@ -114,7 +114,9 @@
     font-size: 28px !important;
   }
   .sectoin-4-paragraph {
-    font-size: 16px !important;
+    font-size: 14px !important;
+    display: flex;
+    flex-wrap: wrap;
   }
   .sectoin-4-paragraph-2 {
     font-size: 17px !important;
