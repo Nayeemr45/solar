@@ -21,8 +21,8 @@ const Cards = ({title , subtitle, icon}) => {
               </Typography>
               <Typography variant="body2" component="p" className="sub-title">
                 {subtitle}
-                <Avatar src={Icon} className="icon"></Avatar>
-              </Typography>
+{/*                 <Avatar src={Icon} className="icon"></Avatar>
+ */}              </Typography>
             </CardContent>
           </CardActionArea>
         </Card>
