@@ -175,6 +175,13 @@
   font-size: 20px !important;
   font-family: 'Gotham-Book' !important;
 }
+@media (min-width: 767px) and (max-width: 1024px) {
+  .content-2-box-2-grid {
+    grid-column-gap: 30px !important;
+    grid-row-gap: 0px !important;
+    margin-bottom: 30px;
+}
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .content-2-grid {
     display: grid !important;

@@ -6,14 +6,14 @@ const Content4 = () => {
   return (
     <div className="content-4">
         <Grid container  className="content-4-grid">
-          <Grid item xs={12} sm={5} className="content-4-grid-1">
+          <Grid item xs={5} sm={5} className="content-4-grid-1">
             <Box className="content-4-box-left">
               <Box className="content-4-rectangle"></Box>
               <img src={Image} alt={''} className="content-4-img"/>
             </Box>
           </Grid>
-          <Grid item xs={12} sm={1}></Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid item xs={1} sm={1}></Grid>
+          <Grid item xs={2} sm={4}>
             <Box className="content-4-box-right">
               <Typography
                 variant="h4"
@@ -49,7 +49,7 @@ const Content4 = () => {
                     </Button>
         </Box>
           </Grid>
-          <Grid item xs={3} sm={3}></Grid>
+          <Grid item xs={1} sm={2}></Grid>
           </Grid>
     </div>
   );
