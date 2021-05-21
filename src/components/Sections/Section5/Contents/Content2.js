@@ -7,6 +7,7 @@ import Number_icon_3 from '../../../../Assets/Icons/Number-icon-3.png';
 import Number_icon_4 from '../../../../Assets/Icons/Number-icon-4.png';
 import Number_icon_5 from '../../../../Assets/Icons/Number-icon-5.png';
 import '../../../../Assets/Css/Section5.css';
+import dot from '../../../../Assets/Icons/dot.svg';
 
 const Content2 = () => {
   return (
@@ -14,10 +15,10 @@ const Content2 = () => {
       <Grid container className="content-2-grid">
         <Grid item xs={1} sm={1} className="content-2-grid-item-1"></Grid>
         <Grid item xs={10} sm={10} className="content-2-grid-item-2">
-            <Typography variant="h4" gutterBottom className="content-2-heading">
-              How Does A{' '}
-              <span style={{color: '#FFBA00'}}>Solar System Work?</span>
-            </Typography>
+          <Typography variant="h4" gutterBottom className="content-2-heading">
+            How Does A{' '}
+            <span style={{color: '#FFBA00'}}>Solar System Work?</span>
+          </Typography>
           <Typography variant="h4" gutterBottom className="content-2-paragraph">
             Generating your own electricity with the help of the sun sounds
             tempting. But how does a photovoltaic system work? Solar or
@@ -45,7 +46,7 @@ const Content2 = () => {
             <Typography
               variant="h4"
               gutterBottom
-              className="content-2-paragraph"
+              className="content-2-paragraph-2"
             >
               In practice, solar modules cannot convert all of the solar energy
               into electricity. How much exactly depends on the respective
@@ -60,7 +61,7 @@ const Content2 = () => {
           <Box className="content-2-box-2">
             <Grid container className="content-2-box-2-grid">
               <Grid item sm={6} xs={12}>
-                <img src={image} alt={''} className="content-2-img"/>
+                <img src={image} alt={''} className="content-2-img" />
               </Grid>
               <Grid item sm={6} xs={12}>
                 <Box className="contenet-2-box-2-right">
@@ -69,7 +70,10 @@ const Content2 = () => {
                     gutterBottom
                     className="content-2-list"
                   >
-                    <span className="dot">&#8226;</span> Solar cells
+                    <span className="dot">
+                      <img src={dot} alt={''} />
+                    </span>
+                    Solar cells
                   </Typography>
                   <Typography
                     variant="h4"
@@ -77,7 +81,10 @@ const Content2 = () => {
                     className="content-2-list"
                   >
                     <hr />
-                    <span className="dot">&#8226;</span> Solar modules
+                    <span className="dot">
+                      <img src={dot} alt={''} />
+                    </span>
+                    Solar modules
                   </Typography>
                   <Typography
                     variant="h4"
@@ -85,7 +92,11 @@ const Content2 = () => {
                     className="content-2-list"
                   >
                     <hr />
-                    <span className="dot">&#8226;</span> Inverter
+                    {/* <span className="dot">&#8226;</span> */}
+                    <span className="dot">
+                      <img src={dot} alt={''} />
+                    </span>
+                    Inverter
                   </Typography>
                 </Box>
               </Grid>
@@ -94,53 +105,74 @@ const Content2 = () => {
           <Box className="content-2-box-3">
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img src={Number_icon_1} alt={Number_icon_1} className="content-2-box-3-img"/>
+                <img
+                  src={Number_icon_1}
+                  alt={Number_icon_1}
+                  className="content-2-box-3-img"
+                />
               </span>
               Solar modules
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img src={Number_icon_2} alt={Number_icon_2} className="content-2-box-3-img"/>
+                <img
+                  src={Number_icon_2}
+                  alt={Number_icon_2}
+                  className="content-2-box-3-img"
+                />
               </span>
               Solar cell
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img src={Number_icon_3} alt={Number_icon_3} className="content-2-box-3-img"/>
+                <img
+                  src={Number_icon_3}
+                  alt={Number_icon_3}
+                  className="content-2-box-3-img"
+                />
               </span>
               Negative pole
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img src={Number_icon_4} alt={Number_icon_4} className="content-2-box-3-img"/>
+                <img
+                  src={Number_icon_4}
+                  alt={Number_icon_4}
+                  className="content-2-box-3-img"
+                />
               </span>
               Positive pole
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img src={Number_icon_5} alt={Number_icon_5} className="content-2-box-3-img"/>
+                <img
+                  src={Number_icon_5}
+                  alt={Number_icon_5}
+                  className="content-2-box-3-img"
+                />
               </span>
               End product electricity
             </Typography>
           </Box>
           <Box className="content-2-box-4">
-          <Grid>
-          <Grid item sm={12}>
-            <Typography className="content-2-box-4-heading">
-              <span style={{color: '#FBB906'}}>
-                Excursus: Solar Thermal Energy - Heat From The Sun's Rays
-              </span>
-            </Typography>
-            </Grid>
-            <Grid item sm={10}>
-            <Typography className="content-2-box-4-paragraph">
-              Solar energy can also be used to heat or heat water . The devices
-              that are required for this are called solar collectors . They look
-              very similar to the photovoltaic systems that generate
-              electricity. Solar collectors collect the heat from the sun's rays
-              so that it can then be used for heating or hot showers .{' '}
-            </Typography>
-            </Grid>
+            <Grid>
+              <Grid item sm={12}>
+                <Typography className="content-2-box-4-heading">
+                  <span style={{color: '#FBB906'}}>
+                    Excursus: Solar Thermal Energy - Heat From The Sun's Rays
+                  </span>
+                </Typography>
+              </Grid>
+              <Grid item sm={10}>
+                <Typography className="content-2-box-4-paragraph">
+                  Solar energy can also be used to heat or heat water . The
+                  devices that are required for this are called solar collectors
+                  . They look very similar to the photovoltaic systems that
+                  generate electricity. Solar collectors collect the heat from
+                  the sun's rays so that it can then be used for heating or hot
+                  showers .{' '}
+                </Typography>
+              </Grid>
             </Grid>
           </Box>
         </Grid>

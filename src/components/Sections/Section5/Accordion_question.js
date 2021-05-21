@@ -9,7 +9,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MinimizeIcon from '@material-ui/icons/Minimize';
 import '../../../Assets/Css/Section5.css';
 import AddIcon from '@material-ui/icons/Add';
-
+import dot from '../../../Assets/Icons/dot.svg'
 const useStyles = makeStyles((theme) => ({
   root: {
     width: '100%',
@@ -39,7 +39,8 @@ const Accordion_question = ({ text ,text2 }) => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-        <span className="dot">&#8226;</span>
+{/*         <span className="dot">&#8226;</span>
+ */}        <span className="dot"><img src={dot} alt={''}/></span>
           <Typography className="content-1-list"> {text}</Typography>
         </AccordionSummary>
         <AccordionDetails>

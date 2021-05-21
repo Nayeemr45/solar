@@ -11,8 +11,7 @@
   src: local('Gotham-Medium'), url(../Fonts/GothamMedium.ttf) format('truetype');
 }
 .section-4 {
-/*   height: 1175px;
- */  margin-top: 100px;
+  margin-top: 100px;
   background-color: #fffcf2;
   padding-top: 100px;
 }
@@ -92,7 +91,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
   
   .section-4 {
-    height: 2348px !important;
     margin-top: 0px !important;
   }
   .offer-div{
