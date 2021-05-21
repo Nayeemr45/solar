@@ -11,8 +11,9 @@
   src: local('Gotham-Book'), url(../Fonts/GothamBook.ttf) format('truetype');
 }
 .section-5 {
-/*   height: 5200px;
- */  margin-bottom: 380px;
+  /*   height: 5200px;
+ */
+  margin-bottom: 380px;
 }
 
 .content-1 {
@@ -310,10 +311,10 @@
   }
   .content-3-list-icon {
     padding-right: 5px;
-}
-.content-3-list-icon-img{
-  width: 20px;
-}
+  }
+  .content-3-list-icon-img {
+    width: 20px;
+  }
 }
 
 /* ================================*/
@@ -365,9 +366,9 @@
 }
 
 .content-4-icon {
-  width: 20px !important;
+  width: 40px !important;
   height: 20px !important;
-  padding-left: 30px !important;
+  padding-left: 20px !important;
   justify-content: flex-end !important;
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -593,7 +594,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .content-6 {
     margin-top: 0px;
-}
+  }
   .content-6-img {
     width: 200px;
     height: 200px;
