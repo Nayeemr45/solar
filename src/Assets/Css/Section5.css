@@ -409,8 +409,8 @@
     grid-column: 2/4;
   }
   .content-4-paragraph {
-    padding-top: 80%;
-    font-size: 11px !important;
+/*     padding-top: 80%;
+ */    font-size: 11px !important;
     grid-column: 2/4;
   }
   .content-4-button-box {
