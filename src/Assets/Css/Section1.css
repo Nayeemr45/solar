@@ -47,8 +47,8 @@
 }
 
 .MuiListItem-gutters {
-  padding: 0 !important;
-}
+/*   padding: 0 !important;
+ */}
 
 .button {
   background-color: var(--button-color) !important;
@@ -104,7 +104,7 @@
     color: #fff !important;
     border-radius: 8px !important;
 /*     padding: 8px 8px !important;
- */    font-size: 12px !important;
+ */    font-size: 10px !important;
     font-family: 'Gotham-Medium' !important;
     text-transform: none !important;
   }
