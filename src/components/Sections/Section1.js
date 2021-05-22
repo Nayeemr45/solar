@@ -90,7 +90,7 @@ const Section1 = () => {
               </Grid>
               <Grid item sm={1} className="section-1-grid-5"></Grid>
           </Grid>
-          <Button className="new-button">Start The Solar Calculator
+          <Button className="new-button">Start There
                     </Button>
         </Box>
       </div>
