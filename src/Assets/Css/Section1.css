@@ -50,11 +50,11 @@
   padding: 0 !important;
 }
 
-.cal-button {
-  background-color: #fbb906 !important;
+.button {
+  background-color: var(--button-color) !important;
   color: #fff !important;
   border-radius: 10px !important;
-  padding: 10px 10px !important;
+  padding: 10px 15px !important;
   font-size: 14px !important;
   font-family: 'Gotham-Medium' !important;
   text-transform: none !important;
@@ -67,6 +67,7 @@
   justify-content: flex-end !important;
 }
 .avatar {
+  display: flex;
   justify-content: flex-end !important;
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -97,8 +98,8 @@
   .section-1-list{
       padding-bottom: 20px !important;
   }
-  .cal-button {
-    background-color: #fbb906 !important;
+  .button {
+    background-color: var(--button-color) !important;
     color: #fff !important;
     border-radius: 8px !important;
     padding: 8px 8px !important;

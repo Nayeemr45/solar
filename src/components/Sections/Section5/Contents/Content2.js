@@ -18,7 +18,7 @@ const Content2 = () => {
         <Grid item xs={10} sm={10} className="content-2-grid-item-2">
           <Typography variant="h4" gutterBottom className="content-2-heading">
             How Does A{' '}
-            <span style={{color: '#FFBA00'}}>Solar System Work?</span>
+            <span className="text-color">Solar System Work?</span>
           </Typography>
           <Typography variant="h4" gutterBottom className="content-2-paragraph">
             Generating your own electricity with the help of the sun sounds
@@ -144,7 +144,7 @@ const Content2 = () => {
             <Grid>
               <Grid item sm={12}>
                 <Typography className="content-2-box-4-heading">
-                  <span style={{color: '#FBB906'}}>
+                  <span className="text-color">
                     Excursus: Solar Thermal Energy - Heat From The Sun's Rays
                   </span>
                 </Typography>

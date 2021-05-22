@@ -20,6 +20,11 @@
 }
 .sectoin-4-grid-2{
   justify-content: center;
+  height: 140px;
+}
+.sectoin-4-grid-3{
+  position: relative;
+  z-index: 100;
 }
 .section-4-card {
   border-radius: 10px !important;
@@ -68,15 +73,6 @@
   font-size: 14px !important;
   color: #666460 !important;
 }
-.offer-button {
-  background-color: #fbb906 !important;
-  color: #fff !important;
-  border-radius: 10px !important;
-  padding: 10px 10px !important;
-  font-size: 14px !important;
-  font-family: 'Gotham-Medium' !important;
-  text-transform: none !important;
-}
 
 .sectoin-4-paragraph-2-div,
 .offer-button-div,
@@ -87,6 +83,9 @@
 .offer-button-div{
   margin-top: 50px;
   padding-bottom: 100px;
+}
+.section-4-img{
+  transform: rotate(5deg);
 }
 @media (min-width: 320px) and (max-width: 767px) {
   

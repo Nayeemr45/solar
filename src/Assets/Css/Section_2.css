@@ -34,7 +34,7 @@
   background-color: rgba(251, 185, 6, 0.08) !important;
 }
 .card-content:hover {
-  background: #fbb906 !important;
+  background: var(--card-hover-color) !important;
   color: #fff !important;
 }
 .card-content:hover > .title {
@@ -44,7 +44,18 @@
   color: #fff !important;
 }
 .card-content:hover > .icon-avatar {
-  content: url(../Icons/icon5_hover.svg);
+  fill: red !important;
+  content: url(../Icons/icon5_hover.svg) !important;
+}
+.card-content:hover > .icon-avatar {
+  fill: red !important;
+  content: url(../Icons/icon5_hover.svg) !important;
+}
+.card-content:hover > svg #Rectangle_598 {
+ fill: #fff !important;
+}
+.card-content:hover > svg #Path_47 {
+ fill: var(--card-icon-color) !important;
 }
 
 .title {
@@ -56,7 +67,7 @@
   display: flex;
   font-size: 10px !important;
   font-family: 'Gotham-Medium' !important;
-  color: #fbb906 !important;
+  color: var(--text-color) !important;
   align-items: center;
   justify-content: center;
 }

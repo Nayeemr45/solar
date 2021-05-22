@@ -16,7 +16,7 @@ const Content1 = () => {
           <Grid item xs className="content-1-grid">
             <Typography variant="h4" gutterBottom className="content-1-heading">
               Frequent Questions About{' '}
-              <span style={{color: '#FFBA00'}}>Solar Energy</span>
+              <span className="text-color">Solar Energy</span>
             </Typography>
           </Grid>
 

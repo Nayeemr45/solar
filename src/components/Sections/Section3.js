@@ -43,9 +43,9 @@ const Section3 = () => {
                   receive an individual result on your solar potential and a
                   free offer
                 </Typography>
-                <Button className="cal-button">
+                <Button className="button">
                   Start The Solar Calculator
-                  <ListItemAvatar className="sectio-3-avatar">
+                  <ListItemAvatar className="avatar">
                     <Avatar src={Icon4} className="icon"></Avatar>
                   </ListItemAvatar>
                 </Button>

@@ -11,7 +11,7 @@ const Content3 = () => {
         <Grid item xs>
           <Typography variant="h4" gutterBottom className="content-3-heading">
             Benefits Of
-            <span style={{color: '#FFBA00'}}> Solar Energy</span>
+            <span className="text-color"> Solar Energy</span>
           </Typography>
           <Grid container item xs={12} sm={12} className="content-3-grid">
           <Grid item xs={12} sm={5}>
@@ -71,7 +71,7 @@ const Content3 = () => {
         
         </Grid>
         <Box className="content-3-button-box">
-        <Button className="content-3-button">Our solar solution
+        <Button className="button">Our solar solution
                     <ListItemAvatar className="avatar">
                       <Avatar src={Icon4} className="icon"></Avatar>
                     </ListItemAvatar>

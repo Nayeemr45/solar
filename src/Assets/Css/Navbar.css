@@ -16,7 +16,7 @@
 }
 
 .contactButton {
-  background-color: #fbb906 !important;
+  background-color: var(--button-color) !important;
   color: #fff !important;
   border-radius: 25px !important;
   padding: 17px 35px !important;
@@ -27,7 +27,7 @@
   text-decoration: none;
 }
 .contactButton:hover {
-  background-color: #fbb906;
+  background-color: var(--button-color);
   box-shadow: 0px 2px 10px #888888;
 }
 

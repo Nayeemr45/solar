@@ -47,7 +47,7 @@
 .sectoin-3-heading {
   justify-content: flex-start;
   display: flex;
-  color: #fbb906;
+  color: var(--text-color);
   font-size: 36px !important;
   font-family: 'Gotham-Bold' !important;
   text-align: left;
