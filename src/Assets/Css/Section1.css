@@ -84,7 +84,7 @@
     background-image: url(../Images/Artboard2.jpg) !important;
     width: 100% !important;
   }
-  .MuiButton-label {
+  .MuiButton-root {
     font-family: 'Gotham-Medium';
   }
   .heading {
