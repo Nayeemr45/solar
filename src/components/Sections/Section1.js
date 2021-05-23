@@ -87,7 +87,8 @@ const Section1 = () => {
 
               </ListItem>
               <ListItem>
-              <Button variant="contained">Start The Solar Calculator</Button>
+              <Button variant="contained"
+              endIcon={ <Avatar src={Icon4} className="icon"></Avatar>}>Start The Solar Calculator</Button>
 
               </ListItem>
             </List>
