@@ -7,12 +7,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-{/*       <HomaPage />
- */}    
- <Button variant="contained">Default</Button>
+      <HomaPage />
+    
+ {/* <Button variant="contained">Default</Button>
       <Button variant="contained" color="primary">
         Primary
-      </Button>
+      </Button> */}
  </div>
   );
 }

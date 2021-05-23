@@ -84,10 +84,10 @@ const Section1 = () => {
                     <Avatar src={Icon4} className="icon"></Avatar>
                   </ListItemAvatar>
                 </Button>
+                <Button variant="contained">Start The Solar Calculator</Button>
+
               </ListItem>
             </List>
-            <button className="new-button">Start The Solar Calculator</button>
-
           </Grid>
           <Grid item sm={1} className="section-1-grid-5"></Grid>
         </Grid>
