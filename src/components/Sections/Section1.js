@@ -84,12 +84,15 @@ const Section1 = () => {
                     <Avatar src={Icon4} className="icon"></Avatar>
                   </ListItemAvatar>
                 </Button>
-
               </ListItem>
               <ListItem>
-              <Button variant="contained"
-              endIcon={ <Avatar src={Icon4} className="icon"></Avatar>}>Start The Solar Calculator</Button>
-
+                <Button
+                  variant="contained"
+                  endIcon={<Avatar src={Icon4} className="icon"></Avatar>}
+                  className="main-btn"
+                >
+                  Start The Solar Calculator
+                </Button>
               </ListItem>
             </List>
           </Grid>
