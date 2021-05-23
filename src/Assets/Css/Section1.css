@@ -122,6 +122,7 @@
     background-color: var(--button-color) !important;
     font-size: 10px !important;
     font-family: 'Gotham-Medium' !important;
+    text-transform: none !important;
   }
   .new-button{
     background-color: var(--button-color) !important;
