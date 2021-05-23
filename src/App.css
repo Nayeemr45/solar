@@ -9,3 +9,12 @@ body{
 .text-color{
   color: var(--text-color);
 }
+
+@font-face {
+  font-family: 'Gotham-bold';
+  src: local('Gotham-bold'), url(./Assets/Fonts/Gotham-Bold.otf) format('truetype');
+}
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: local('Gotham-Medium'), url(./Assets/Fonts/GothamMedium.ttf) format('truetype');
+}

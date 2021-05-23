@@ -31,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
   },
   main_btn:{
     textTransform:'none',
+    fontFamily: 'Gotham-Medium',
     fontSize: '10px',
     background: 'var(--button-color)',
     color: 'var(--text-color2)'
