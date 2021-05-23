@@ -443,7 +443,7 @@
 }
 @media (min-width: 768px) and (max-width: 1025px) {
   .content-4-grid-1 {
-    max-width: 60% !important;
+    max-width: 50% !important;
   }
 }
 
