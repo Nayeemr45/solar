@@ -23,7 +23,8 @@ const Content6 = () => {
         <Box className="img-box">
           <div className="content-6-left">
             <Grid container className="content-6-grid">
-              <Grid item xs={6} sm={6} className="content-6-grid-1"></Grid>
+              <Grid item xs={12} sm={6} className="content-6-grid-1"></Grid>
+              <Grid item xs={12} sm={1} className="content-6-grid-1"></Grid>
               <Grid item xs={4} sm={4} className="content-6-grid-2">
                 <Typography
                   variant="h4"
@@ -85,8 +86,9 @@ const Content6 = () => {
                       <Avatar src={Icon4} className="icon"></Avatar>
                     </ListItemAvatar>
                     </Button>
-                <Grid item xs={2} sm={2}></Grid>
               </Grid>
+{/*               <Grid item xs={2} sm={2}></Grid>
+ */}
             </Grid>
           </div>
         </Box>
