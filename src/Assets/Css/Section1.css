@@ -118,11 +118,11 @@
     display: flex !important;
     align-items: center !important;
   }
-  .main-btn{
+/*   .main-btn{
     background-color: var(--button-color) !important;
     font-size: 10px !important;
     font-family: 'Gotham-Medium' !important;
-  }
+  } */
   .new-button{
     background-color: var(--button-color) !important;
     color: rgb(255, 0, 0) !important;
