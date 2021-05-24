@@ -107,9 +107,7 @@
   text-align: left;
   font-size: 20px !important;
   line-height: 1.5 !important;
-  display: flex;
-  flex-flow: wrap;
-    flex-wrap: wrap;
+  
 }
 .content-2-paragraph-2 {
   font-family: 'Gotham-Book' !important;
@@ -218,6 +216,9 @@
   }
   .content-2-paragraph {
     font-size: 12px !important;
+    display: flex;
+  flex-flow: wrap;
+    flex-wrap: wrap;
   }
   .content-2-paragraph-2 {
     font-size: 8px !important;
