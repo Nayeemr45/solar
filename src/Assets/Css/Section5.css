@@ -19,7 +19,7 @@
 .content-1 {
   /*   height: 700px;
  */
- margin-top: 100px;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 .content-1-heading {
@@ -180,7 +180,7 @@
     grid-column-gap: 30px !important;
     grid-row-gap: 0px !important;
     margin-bottom: 30px;
-}
+  }
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .content-2-grid {
@@ -387,8 +387,14 @@
 
 @media (min-width: 320px) and (max-width: 767px) {
   .content-4 {
-    height: 780px;
+    height: 700px;
     margin-top: 30px;
+    padding-top: 50px;
+  }
+  .content-4-grid {
+    grid-column-gap: 0px;
+    display: grid !important;
+    grid-template-columns: 0.25 1fr 1fr 0.25fr;
   }
   .content-4-img {
     width: 80%;
@@ -396,7 +402,6 @@
   }
   .content-4-box-left {
     padding-top: 50%px;
-    position: absolute;
   }
   .content-4-rectangle {
     height: 200px;
@@ -404,13 +409,15 @@
   }
   .content-4-heading {
     font-size: 20px !important;
-    padding-bottom: 160px;
+    /*     padding-bottom: 160px;
+ */
     line-height: 1.5 !important;
     grid-column: 2/4;
   }
   .content-4-paragraph {
-/*     padding-top: 80%;
- */    font-size: 11px !important;
+    /*     padding-top: 80%;
+ */
+    font-size: 11px !important;
     grid-column: 2/4;
   }
   .content-4-button-box {
@@ -497,7 +504,8 @@
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .content-5 {
-    margin-top: 50px !important;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem;
   }
   .content-5-heading {
     font-size: 20px !important;
