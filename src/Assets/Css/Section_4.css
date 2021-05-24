@@ -175,10 +175,36 @@
   }
 
   @media (min-width: 481px) and (max-width: 768px) {
+    .section-4 {
+      margin-top: 0px !important;
+    }
+    .section-4-card-content {
+      min-width: 8rem !important;
+      min-height: 15rem !important;
+    }
+    .section-4-card-title {
+      font-size: 9px !important;
+    }
+    .section-4-card-sub-title{
+      font-size: 9px !important;
+    }
+    .section-4-card-icon{
+      width: 8rem !important;
+      height: 6rem !important;
+    }
+    .section-4-card-number-icon{
+      width: 2rem;
+    }
+    .sectoin-4-grid-5 , .sectoin-4-grid-6 , .sectoin-4-grid-7, .sectoin-4-grid-8{
+      max-width: none !important;
+    }
+    .section-4-img{
+      width: 8rem !important;
+    }
 
   }
   
-  @media (min-width: 1024px) and (max-width: 1441px) {
+  @media (min-width: 1025px) and (max-width: 1441px) {
     .sectoin-4-img{
       width: 250px;
     }
@@ -200,7 +226,7 @@
  
   @media (min-width: 769px) and (max-width: 1024px) {
     .sectoin-4-img{
-      width: 220px !important;
+      width: 10rem !important;
     }
     .sectoin-4-grid-3 {
       display: grid !important;
@@ -306,8 +332,4 @@
       max-height: 400px;
     }
   }
-  @media (max-width: 769px) {
-    .sectoin-4-img{
-      width: 250px !important;
-    }
-  }
+ 

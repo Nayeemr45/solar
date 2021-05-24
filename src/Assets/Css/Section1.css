@@ -79,7 +79,7 @@
   display: flex;
   justify-content: flex-end !important;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .section-1 {
     background-image: url(../Images/Artboard2.jpg) !important;
     width: 100% !important;
@@ -172,7 +172,13 @@
       grid-column: 1 / 2;
   }
 }
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (min-width: 481px) and (max-width: 768px) {
+  .button {
+    font-size: 11px !important;
+  }
+
+}
+@media (min-width: 769px) and (max-width: 1024px) {
   .heading {
     font-size: 80px !important;
     line-height: 1.25 !important;
