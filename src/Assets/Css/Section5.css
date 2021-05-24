@@ -316,7 +316,7 @@
     grid-row-gap: 0px !important;
   }
   .content-3-list {
-    font-size: 12px !important;
+    font-size: 11px !important;
     line-height: 1.65 !important;
     padding-bottom: 15px;
   }
@@ -523,7 +523,7 @@
     font-size: 16px !important;
   }
   .content-5-paragraph {
-    font-size: 12px !important;
+    font-size: 11px !important;
   }
   .content-5-grid {
     display: grid !important;
@@ -625,7 +625,7 @@
     width: 200px;
     height: 200px;
     position: absolute;
-    margin-top: 130px;
+    margin-top: 10rem;
   }
   .content-6-background {
     bottom: 0px !important;
