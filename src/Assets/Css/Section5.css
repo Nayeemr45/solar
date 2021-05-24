@@ -371,6 +371,7 @@
 }
 .content-4-grid {
   grid-column-gap: 0px;
+  
 }
 .content-4-button-box {
   margin-top: 40px;
@@ -453,8 +454,21 @@
   }
 }
 @media (min-width: 768px) and (max-width: 1025px) {
+  .content-4 {
+    padding-top: 2rem !important;
+  }
   .content-4-grid-1 {
     max-width: 50% !important;
+  }
+  .content-4-grid {
+    grid-column-gap: 0px;
+    align-items: center;
+  }
+  .content-4-button-box {
+    margin-top: 0px !important;
+  }
+  .content-4-img {
+    width: 28rem;
   }
 }
 
@@ -561,6 +575,11 @@
   }
   .content-5-box-right {
     padding-left: 19px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1025px) {
+  .content-5-rectangle {
+    width: 3rem;
   }
 }
 
