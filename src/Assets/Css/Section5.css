@@ -181,6 +181,14 @@
     grid-row-gap: 0px !important;
     margin-bottom: 30px;
   }
+  .content-2-box-2-grid {
+    grid-column-gap: 30px !important;
+}
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .content-2-box-2-grid {
+    grid-column-gap: 30px !important;
+}
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .content-2-box-4-heading {
