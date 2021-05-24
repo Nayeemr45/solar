@@ -91,51 +91,81 @@ const Content2 = () => {
           <Box className="content-2-box-3">
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img
+                {/* <img
                   src={Number_icon_1}
                   alt={Number_icon_1}
                   className="content-2-box-3-img"
-                />
+                /> */}
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(794 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">1</tspan></text>
+  </g>
+</svg>
+
               </span>
               Solar modules
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img
-                  src={Number_icon_2}
-                  alt={Number_icon_2}
-                  className="content-2-box-3-img"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+    <text id="_2" data-name="2" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
+  </g>
+</svg>
+
               </span>
               Solar cell
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img
-                  src={Number_icon_3}
-                  alt={Number_icon_3}
-                  className="content-2-box-3-img"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+    <text id="_3" data-name="3" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">3</tspan></text>
+  </g>
+</svg>
+
               </span>
               Negative pole
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img
-                  src={Number_icon_4}
-                  alt={Number_icon_4}
-                  className="content-2-box-3-img"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+    <text id="_4" data-name="4" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">4</tspan></text>
+  </g>
+</svg>
+
               </span>
               Positive pole
             </Typography>
             <Typography className="content-2-list-2">
               <span className="content-2-list-2-icon">
-                <img
-                  src={Number_icon_5}
-                  alt={Number_icon_5}
-                  className="content-2-box-3-img"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+    <text id="_5" data-name="5" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">5</tspan></text>
+  </g>
+</svg>
+
               </span>
               End product electricity
             </Typography>

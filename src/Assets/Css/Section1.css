@@ -25,7 +25,7 @@
 .heading {
   font-size: 119px !important;
   font-weight: 600 !important;
-  opacity: 10%;
+  opacity: 0.1;
   line-height: 0.9 !important;
   font-family: 'Gotham-bold' !important;
   text-align: left !important;
