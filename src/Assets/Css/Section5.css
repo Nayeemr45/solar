@@ -107,7 +107,6 @@
   text-align: left;
   font-size: 20px !important;
   line-height: 1.5 !important;
-  
 }
 .content-2-paragraph-2 {
   font-family: 'Gotham-Book' !important;
@@ -176,14 +175,29 @@
   font-size: 20px !important;
   font-family: 'Gotham-Book' !important;
 }
-@media (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .content-2-box-2-grid {
     grid-column-gap: 30px !important;
     grid-row-gap: 0px !important;
     margin-bottom: 30px;
   }
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
+  .content-2-box-4-heading {
+    font-size: 22px !important;
+  }
+  .content-2-box-4-paragraph {
+    font-size: 14px !important;
+  }
+  .content-2-paragraph-2 {
+    font-size: 13px !important;
+  }
+  .content-2-box-2-grid {
+    grid-column-gap: 30px !important;
+}
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
   .content-2-grid {
     display: grid !important;
     grid-template-columns: 0.25fr 1fr 1fr 0.25fr;
@@ -217,7 +231,7 @@
   .content-2-paragraph {
     font-size: 11px !important;
     display: flex;
-  flex-flow: wrap;
+    flex-flow: wrap;
     flex-wrap: wrap;
   }
   .content-2-paragraph-2 {
@@ -371,7 +385,6 @@
 }
 .content-4-grid {
   grid-column-gap: 0px;
-  
 }
 .content-4-button-box {
   margin-top: 40px;
@@ -449,7 +462,7 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-.content-4 {
+  .content-4 {
     padding-top: 2rem !important;
     height: 35rem !important;
   }
@@ -612,7 +625,7 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-  .content-5-img{
+  .content-5-img {
     width: 20rem;
   }
   .content-5-rectangle {
@@ -622,7 +635,8 @@
   .content-5-heading {
     font-size: 28px !important;
   }
-  .content-5-subheading-2, .content-5-subheading-1 {
+  .content-5-subheading-2,
+  .content-5-subheading-1 {
     font-size: 20px !important;
   }
   .content-5-paragraph {
@@ -730,7 +744,7 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
-  .content-6-img{
+  .content-6-img {
     width: 20rem;
   }
   .content-5-rectangle {
@@ -740,11 +754,21 @@
   .content-5-heading {
     font-size: 28px !important;
   }
-  .content-5-subheading-2, .content-5-subheading-1 {
+  .content-5-subheading-2,
+  .content-5-subheading-1 {
     font-size: 20px !important;
   }
   .content-5-paragraph {
     font-size: 16px !important;
+  }
+  .content-6-list {
+    font-size: 13px !important;
+  }
+  .content-6-heading {
+    font-size: 23px !important;
+  }
+  .content-6-background {
+    bottom: 30rem;
   }
 }
 
