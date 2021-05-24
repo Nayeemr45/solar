@@ -204,11 +204,26 @@
       grid-column-gap: 15px !important;
 
     }
+    .section-4-card-icon{
+      width: 10rem !important;
+    }
+    .section-4-card-number-icon{
+      width: 2rem !important;
+    }
+    .section-4-card-title {
+      font-size: 12px !important;
+    }
+    .section-4-card-sub-title {
+      font-size: 12px !important;
+    }
     .sectoin-4-grid-offer-div{
       display: grid !important;
     }
     .section-4-card-content {
-      min-width: 210px !important;
+/*       min-width: 210px !important;
+ */
+      min-width: 13rem !important;
+    min-height: 15rem !important;
     }
     .section-4-icon-avatar{
       width: 180px;

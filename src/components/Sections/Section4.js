@@ -223,6 +223,7 @@ const Section4 = () => {
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -394,6 +395,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon"
                     >
                       <g
                         id="Group_46060"
@@ -461,6 +463,7 @@ const Section4 = () => {
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -540,6 +543,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon"
                     >
                       <g
                         id="Group_46060"
@@ -607,6 +611,7 @@ const Section4 = () => {
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -670,6 +675,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon"
                     >
                       <g
                         id="Group_46060"
@@ -731,6 +737,7 @@ const Section4 = () => {
                       width="228"
                       height="159"
                       viewBox="0 0 228 159"
+                      className="section-4-card-icon"
                     >
                       <g
                         id="Group_46081"
@@ -900,6 +907,7 @@ const Section4 = () => {
                       width="44"
                       height="44"
                       viewBox="0 0 44 44"
+                      className="section-4-card-number-icon"
                     >
                       <g
                         id="Group_46060"
