@@ -40,6 +40,9 @@
     margin-left: 2rem !important;
   }
   .contactButton {
+    font-family: "Arial", "Roboto", "Helvetica",  sans-serif !important;
+  }
+  .contactButton {
     margin-left: 0px;
   }
   .MuiListItem-button {
