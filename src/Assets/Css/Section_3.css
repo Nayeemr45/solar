@@ -26,7 +26,7 @@
 }
 .img {
   height: 490px;
-  background-image: url(../Images/3.3.jpg);
+  background-image: url(../Images/section-3-background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
 .sectoin-3-heading {
   justify-content: flex-start;
   display: flex;
-  color: var(--text-color);
+  color: var(--second-text-color);
   font-size: 36px !important;
   font-family: 'Gotham-Bold' !important;
   text-align: left;
@@ -56,7 +56,7 @@
 .sectoin-3-paragraph {
   justify-content: flex-start;
   display: flex;
-  color: #fafafa;
+  color: var(--second-text-color);
   font-size: 20px !important;
   font-family: 'Gotham-Book' !important;
   text-align: left;

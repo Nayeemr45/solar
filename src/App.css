@@ -1,11 +1,16 @@
 body{
   --color: #ffdc00;
   --icon-color: #ffdc00;
+  --second-icon-color: #18384d;
   --text-color: #ffdc00;
-  --button-color: #ffdc00;
+  --second-text-color: #18384d;
+  --content-2-text-color: #18384d;
+  --button-color: #18384d;
+  --button-text-color: #fff;
   --card-icon-color: #ffdc00;
   --card-icon-color-2: #fff;
   --card-hover-color: #ffdc00;
+  --rectangle-color: #ffdc00;
 }
 .text-color{
   color: var(--text-color);

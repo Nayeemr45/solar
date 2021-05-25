@@ -8,7 +8,7 @@
 }
 
 .section-1 {
-  background-image: url(../Images/Artboard1.jpg);
+  background-image: url(../Images/section-1-background.png);
   height: 610px;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,6 +41,7 @@
 }
 
 .MuiListItemText-primary {
+  color: var(--second-text-color) !important;
   font-size: 19px !important;
   font-family: 'Gotham-Medium' !important;
   line-height: 3.5 !important;
@@ -52,10 +53,10 @@
 
 .button {
   background-color: var(--button-color) !important;
-  color: #fff !important;
+  color: var(--button-text-color) !important;
   border-radius: 10px !important;
 /*   padding: 10px 15px !important;
- */  font-size: 14px !important;
+ */  font-size: 16px !important;
   font-family: 'Gotham-Medium' !important;
   text-transform: none !important;
   margin-top: 2rem !important;
@@ -78,11 +79,23 @@
 .avatar {
   display: flex;
   justify-content: flex-end !important;
+  min-width: 35px !important;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .section-1 {
-    background-image: url(../Images/Artboard2.jpg) !important;
+    background-image: url(../Images/section-1-background-2.jpg) !important;
     width: 100% !important;
+  }
+  .section-1-svg svg{
+    fill: var(--icon-color) !important;
+    stroke: var(--icon-color) !important;
+  }
+  .section-1-svg path{
+    fill: var(--icon-color) !important;
+    stroke: var(--icon-color) !important;
+  }
+  .section-1-svg #Ellipse_2{
+    stroke: var(--icon-color) !important;
   }
   /* .MuiButton-root {
     font-family: 'Gotham-Medium' !important;
@@ -147,6 +160,7 @@
     justify-content: flex-end !important;
   }
   .MuiListItemText-primary {
+    color: var(--text-color) !important;
     font-size: 10px !important;
     font-family: 'Gotham-Medium' !important;
     line-height: 3.5 !important;

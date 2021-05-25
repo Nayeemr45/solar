@@ -7,6 +7,7 @@ import {
   ListItemAvatar,
   Avatar,
 } from '@material-ui/core';
+import Icon4 from '../../../../Assets/Icons/icon4.svg'
 import Image from '../../../../Assets/Images/man-worker-firld-by-solar-panels.png';
 import Icon from '../../../../Assets/Icons/Icon ionic-md-arrow-round-back.svg';
 const Content4 = () => {
@@ -44,7 +45,7 @@ const Content4 = () => {
             </Typography>
           </Box>
           <Box className="content-4-button-box">
-            <Button className="button2">
+            {/* <Button className="button2">
               Finance solar system
               <ListItemAvatar className="avatar">
                 <svg
@@ -62,7 +63,13 @@ const Content4 = () => {
                   />
                 </svg>
               </ListItemAvatar>
-            </Button>
+            </Button> */}
+            <Button className="button2">
+            Finance solar system
+                  <ListItemAvatar className="avatar">
+                    <Avatar src={Icon4} className="icon"></Avatar>
+                  </ListItemAvatar>
+                </Button>
           </Box>
         </Grid>
         <Grid item xs={3} sm={2}></Grid>

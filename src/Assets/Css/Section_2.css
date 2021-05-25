@@ -65,7 +65,7 @@
 }
 .sub-title {
   display: flex;
-  font-size: 10px !important;
+  font-size: 18px !important;
   font-family: 'Gotham-Medium' !important;
   color: var(--text-color) !important;
   align-items: center;

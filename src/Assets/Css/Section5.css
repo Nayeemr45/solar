@@ -99,7 +99,7 @@
   font-size: 24px !important;
   font-family: 'Gotham-Bold' !important;
   text-align: left;
-  color: var(--text-color);
+  color: var(--content-2-text-color);
   line-height: 1.5 !important;
 }
 .content-2-paragraph {
@@ -375,7 +375,7 @@
 .content-4-rectangle {
   width: 140px;
   height: 360px;
-  background-color: #18384d;
+  background-color: var(--rectangle-color);
 }
 .content-4-box-right {
 }
@@ -398,7 +398,9 @@
   margin-top: 40px;
 }
 .button2 {
-  color: var(--text-color) !important;
+  background-color: var(--button-color) !important;
+
+  color: var(--button-text-color) !important;
   font-size: 20px !important;
   font-family: 'Gotham-Medium' !important;
   text-transform: none !important;
@@ -456,7 +458,6 @@
     font-size: 12px !important;
     grid-column: 2/4;
     justify-content: start !important;
-    padding-left: 0px !important;
   }
   .content-4-button-box {
     display: grid;
@@ -556,7 +557,7 @@
 .content-5-rectangle {
   width: 140px;
   height: 360px;
-  background-color: #18384d;
+  background-color: var(--rectangle-color);
 }
 .content-5-box-right {
   display: flex;
@@ -670,7 +671,7 @@
 }
 .content-6-background {
   height: 490px;
-  background-image: url(../Images/Mask\ Group\ 3.png);
+  background-image: url(../Images/section-3-background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -690,7 +691,7 @@
 .content-6-heading {
   justify-content: flex-start;
   display: flex;
-  color: var(--text-color);
+  color: var(--second-text-color);
   font-size: 36px !important;
   font-family: 'Gotham-Bold' !important;
   text-align: left;
@@ -699,7 +700,7 @@
 .content-6-list {
   justify-content: flex-start;
   display: flex;
-  color: #fafafa;
+  color: var(--second-text-color);
   font-size: 20px !important;
   font-family: 'Gotham-Book' !important;
   text-align: left;
