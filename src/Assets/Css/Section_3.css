@@ -62,7 +62,7 @@
   text-align: left;
   line-height: 1.25 !important;
 }
-@media (min-width: 320px) and (max-width: 480 px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .section-3 {
   }
   .section-3-grid,
