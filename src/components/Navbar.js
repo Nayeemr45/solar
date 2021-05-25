@@ -128,7 +128,7 @@ const useStyles = makeStyles((theme) => ({
     },
 
   },
-  "@media (min-width: 320px) and (max-width: 767px)": {
+  "@media (min-width: 320px) and (max-width: 480px)": {
     AppBar: {
       width: '100%'
     },
@@ -141,7 +141,7 @@ const useStyles = makeStyles((theme) => ({
   drawerContainer: {
     padding: '20px 30px',
     paddingLeft: '50px',
-    paddingRight: '100px'
+    paddingRight: '2rem'
   },
 }));
 

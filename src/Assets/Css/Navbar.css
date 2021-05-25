@@ -35,18 +35,26 @@
   display: flex;
   justify-content: flex-end;
 }
-@media (min-width: 320px) and (max-width: 769px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .menuButton {
-    margin-left: 40px !important;
+    margin-left: 2rem !important;
   }
   .contactButton {
-    margin-left: -30px;
+    margin-left: 0px;
   }
   .MuiListItem-button {
     margin-bottom: 30px !important;
   }
 }
-@media (min-width: 1024) and (max-width: 1441px) {
+@media (min-width: 481px) and (max-width: 768px) {
+  .contactButton {
+      margin-left: 0px;
+    }
+    .MuiListItem-button {
+      margin-bottom: 30px !important;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1441px) {
   .contactButton {
     margin-left: 25px !important;
     margin-top: 17px;
@@ -54,7 +62,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1025px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .contactButton {
     margin-top: 20px;
     margin-bottom: 20px;

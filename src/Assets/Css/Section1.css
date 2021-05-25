@@ -176,6 +176,17 @@
   .button {
     font-size: 11px !important;
   }
+  .heading {
+    font-size: 4rem !important;
+    margin-top: 5rem !important;
+  }
+  .heading2 {
+    font-size: 1.5rem !important;
+    margin-top: -3.25rem !important;
+  }
+  .MuiListItemText-primary {
+    font-size: 9px !important;
+}
 
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -190,4 +201,5 @@
   .MuiListItemText-primary {
     font-size: 15px !important;
   }
+ 
 }
