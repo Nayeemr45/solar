@@ -8,7 +8,6 @@ import {
   Avatar,
 } from '@material-ui/core';
 import Icon4 from '../../../../Assets/Icons/icon4.svg';
-import Icon from '../../../../Assets/Icons/Icon ionic-md-arrow-round-back.svg';
 import Image from '../../../../Assets/Images/alternative-energy-ecological-concept.png';
 
 const Content5 = () => {

@@ -7,10 +7,9 @@ import {
   Avatar,
   Box,
 } from '@material-ui/core';
-import Check_icon from '../../../../Assets/Icons/check-icon.png';
 import Icon4 from '../../../../Assets/Icons/icon4.svg';
 import '../../../../Assets/Css/Section5.css';
-import Content3_svg from './Content3_svg'
+import SVG from './Content3_svg'
 const Content3 = () => {
   return (
     <div className="content-3">
@@ -25,7 +24,7 @@ const Content3 = () => {
             <Grid item xs={12} sm={5}>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <Content3_svg />
+                <SVG />
 
                 </span>
                 <Typography
@@ -43,7 +42,7 @@ const Content3 = () => {
                     alt={''}
                     className="content-3-list-icon-img"
                   /> */}
-                  <Content3_svg />
+                  <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -55,7 +54,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <Content3_svg />
+                <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -67,7 +66,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <Content3_svg />
+                <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -82,7 +81,7 @@ const Content3 = () => {
             <Grid item xs={12} sm={5}>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <Content3_svg />
+                <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -94,7 +93,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <Content3_svg />
+                <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -106,7 +105,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <Content3_svg />
+                <SVG />
                 </span>
                 <Typography
                   variant="h4"

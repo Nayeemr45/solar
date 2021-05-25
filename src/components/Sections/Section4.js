@@ -9,7 +9,6 @@ import {
 } from '@material-ui/core';
 import '../../Assets/Css/Section_4.css';
 import Icon5 from '../../Assets/Icons/icon4.svg';
-import Section4Cards from './Cards/Section4Cards';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 

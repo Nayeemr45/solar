@@ -1,13 +1,7 @@
 import React from 'react';
 import {Typography, Grid, Box} from '@material-ui/core';
 import image from '../../../../Assets/Images/eon-energie-einfach-erklaert-solarenergie.png';
-import Number_icon_1 from '../../../../Assets/Icons/Number-icon-1.png';
-import Number_icon_2 from '../../../../Assets/Icons/Number-icon-2.png';
-import Number_icon_3 from '../../../../Assets/Icons/Number-icon-3.png';
-import Number_icon_4 from '../../../../Assets/Icons/Number-icon-4.png';
-import Number_icon_5 from '../../../../Assets/Icons/Number-icon-5.png';
 import '../../../../Assets/Css/Section5.css';
-import dot from '../../../../Assets/Icons/dot.svg';
 import Accordion from '../Accordion_question';
 
 const Content2 = () => {

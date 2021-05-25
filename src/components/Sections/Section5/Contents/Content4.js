@@ -9,7 +9,6 @@ import {
 } from '@material-ui/core';
 import Icon4 from '../../../../Assets/Icons/icon4.svg'
 import Image from '../../../../Assets/Images/man-worker-firld-by-solar-panels.png';
-import Icon from '../../../../Assets/Icons/Icon ionic-md-arrow-round-back.svg';
 const Content4 = () => {
   return (
     <div className="content-4">

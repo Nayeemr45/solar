@@ -2,9 +2,11 @@ import React from 'react';
 import {
   Grid,
   Box,
-  Typography,Button,ListItemAvatar,Avatar
+  Typography,
+  Button,
+  ListItemAvatar,
+  Avatar,
 } from '@material-ui/core';
-import Icon from '../../../../Assets/Icons/Icon ionic-md-arrow-round-back.svg';
 import Icon4 from '../../../../Assets/Icons/icon4.svg';
 
 import Image from '../../../../Assets/Images/business-customer-service.png';
@@ -31,7 +33,8 @@ const Content6 = () => {
                   gutterBottom
                   className="content-6-heading"
                 >
-                  Would you like to speak <br />to us personally?{' '}
+                  Would you like to speak <br />
+                  to us personally?{' '}
                 </Typography>
                 <Typography
                   variant="h4"
@@ -60,9 +63,9 @@ const Content6 = () => {
                   gutterBottom
                   className="content-6-list"
                 >
-                  Are you a business customer? 
-                  </Typography>
-                  {/* <Button className="button">
+                  Are you a business customer?
+                </Typography>
+                {/* <Button className="button">
                   Contact us here 
               <ListItemAvatar className="avatar">
               <svg
@@ -81,14 +84,15 @@ const Content6 = () => {
                 </svg>
               </ListItemAvatar>
             </Button> */}
-            <Button className="button">Contact us here 
-                    <ListItemAvatar className="avatar">
-                      <Avatar src={Icon4} className="icon"></Avatar>
-                    </ListItemAvatar>
-                    </Button>
+                <Button className="button">
+                  Contact us here
+                  <ListItemAvatar className="avatar">
+                    <Avatar src={Icon4} className="icon"></Avatar>
+                  </ListItemAvatar>
+                </Button>
               </Grid>
-{/*               <Grid item xs={2} sm={2}></Grid>
- */}
+              {/*               <Grid item xs={2} sm={2}></Grid>
+               */}
             </Grid>
           </div>
         </Box>
