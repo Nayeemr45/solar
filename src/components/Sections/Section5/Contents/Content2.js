@@ -98,11 +98,11 @@ const Content2 = () => {
                 /> */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
   <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="14" cy="14" r="14" stroke="none"/>
       <circle cx="14" cy="14" r="13" fill="none"/>
     </g>
-    <text id="_1" data-name="1" transform="translate(794 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">1</tspan></text>
+    <text id="_1" data-name="1" transform="translate(794 4684)" fill="var(--icon-color)" fontSize="16" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">1</tspan></text>
   </g>
 </svg>
 
@@ -113,11 +113,11 @@ const Content2 = () => {
               <span className="content-2-list-2-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
   <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="14" cy="14" r="14" stroke="none"/>
       <circle cx="14" cy="14" r="13" fill="none"/>
     </g>
-    <text id="_2" data-name="2" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
+    <text id="_2" data-name="2" transform="translate(792 4684)" fill="var(--icon-color)" fontSize="16" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">2</tspan></text>
   </g>
 </svg>
 
@@ -128,11 +128,11 @@ const Content2 = () => {
               <span className="content-2-list-2-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
   <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="14" cy="14" r="14" stroke="none"/>
       <circle cx="14" cy="14" r="13" fill="none"/>
     </g>
-    <text id="_3" data-name="3" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">3</tspan></text>
+    <text id="_3" data-name="3" transform="translate(792 4684)" fill="var(--icon-color)" fontSize="16" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">3</tspan></text>
   </g>
 </svg>
 
@@ -143,11 +143,11 @@ const Content2 = () => {
               <span className="content-2-list-2-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
   <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="14" cy="14" r="14" stroke="none"/>
       <circle cx="14" cy="14" r="13" fill="none"/>
     </g>
-    <text id="_4" data-name="4" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">4</tspan></text>
+    <text id="_4" data-name="4" transform="translate(792 4684)" fill="var(--icon-color)" fontSize="16" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">4</tspan></text>
   </g>
 </svg>
 
@@ -158,11 +158,11 @@ const Content2 = () => {
               <span className="content-2-list-2-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
   <g id="Group_46081" data-name="Group 46081" transform="translate(-783 -4664)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(783 4664)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="14" cy="14" r="14" stroke="none"/>
       <circle cx="14" cy="14" r="13" fill="none"/>
     </g>
-    <text id="_5" data-name="5" transform="translate(792 4684)" fill="var(--icon-color)" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">5</tspan></text>
+    <text id="_5" data-name="5" transform="translate(792 4684)" fill="var(--icon-color)" fontSize="16" fontFamily="SegoeUI, Segoe UI"><tspan x="0" y="0">5</tspan></text>
   </g>
 </svg>
 

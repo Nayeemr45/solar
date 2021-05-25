@@ -61,7 +61,7 @@ const Section1 = () => {
                   {/* <Avatar src={Icon1}></Avatar> */}
                   <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
   <g id="Group_45865" data-name="Group 45865" transform="translate(-9134 2669)">
-    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(9134 -2669)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(9134 -2669)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="22" cy="22" r="22" stroke="none"/>
       <circle cx="22" cy="22" r="21" fill="none"/>
     </g>
@@ -85,7 +85,7 @@ const Section1 = () => {
                  {/*  <Avatar src={Icon2}></Avatar> */}
                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
   <g id="Group_45867" data-name="Group 45867" transform="translate(-9520 2678)">
-    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(9520 -2678)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(9520 -2678)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="22" cy="22" r="22" stroke="none"/>
       <circle cx="22" cy="22" r="21" fill="none"/>
     </g>
@@ -109,7 +109,7 @@ const Section1 = () => {
                  {/*  <Avatar src={Icon3}></Avatar> */}
                  <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
   <g id="Group_45868" data-name="Group 45868" transform="translate(-9419 2476)">
-    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(9419 -2476)" fill="none" stroke="var(--icon-color)" stroke-width="2">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(9419 -2476)" fill="none" stroke="var(--icon-color)" strokeWidth="2">
       <circle cx="22" cy="22" r="22" stroke="none"/>
       <circle cx="22" cy="22" r="21" fill="none"/>
     </g>
