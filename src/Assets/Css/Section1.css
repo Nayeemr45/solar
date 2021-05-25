@@ -23,6 +23,7 @@
   grid-column-gap: 0px !important;
 }
 .heading {
+  color: var(--text-color2) !important;
   font-size: 119px !important;
   font-weight: 600 !important;
   opacity: 0.1;
@@ -31,6 +32,7 @@
   text-align: left !important;
 }
 .heading2 {
+  color: var(--text-color2) !important;
   font-size: 48px !important;
   font-weight: 600 !important;
   line-height: 1.059 !important;

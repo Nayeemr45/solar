@@ -25,7 +25,7 @@ const Content6 = () => {
             <Grid container className="content-6-grid">
               <Grid item xs={12} sm={6} className="content-6-grid-1"></Grid>
               <Grid item xs={12} sm={1} className="content-6-grid-1"></Grid>
-              <Grid item xs={4} sm={5} className="content-6-grid-2">
+              <Grid item xs={4} sm={4} className="content-6-grid-2">
                 <Typography
                   variant="h4"
                   gutterBottom

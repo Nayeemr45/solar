@@ -686,7 +686,7 @@
   z-index: 1;
 }
 .content-6-left {
-  padding-top: 100px;
+  padding-top: 3rem;
 }
 .content-6-heading {
   justify-content: flex-start;
@@ -758,6 +758,9 @@
   .content-5-rectangle {
     width: 2rem;
     height: 15rem;
+  }
+  .content-6-left {
+    padding-top: 6rem;
   }
   .content-5-heading {
     font-size: 28px !important;
