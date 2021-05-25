@@ -56,9 +56,9 @@
 .button {
   background-color: var(--button-color) !important;
   color: var(--button-text-color) !important;
-  border-radius: 10px !important;
-/*   padding: 10px 15px !important;
- */  font-size: 16px !important;
+  border-radius: 5px !important;
+  padding: 14px 16px !important;
+  font-size: 16px !important;
   font-family: 'Gotham-Medium' !important;
   text-transform: none !important;
   margin-top: 2rem !important;
@@ -128,7 +128,7 @@
   .button {
     background-color: var(--button-color) !important;
     color: #fff !important;
-    border-radius: 8px !important;
+    border-radius: 5px !important;
     padding: 8px 8px !important;
     font-size: 10px !important;
     font-family: "Arial", "Roboto", "Helvetica",  sans-serif !important;

@@ -399,11 +399,12 @@
 }
 .button2 {
   background-color: var(--button-color) !important;
-
+  border-radius: 5px !important;
   color: var(--button-text-color) !important;
   font-size: 20px !important;
   font-family: 'Gotham-Medium' !important;
   text-transform: none !important;
+  padding: 14px 16px !important;
 }
 
 .content-4-icon {
@@ -455,14 +456,16 @@
     grid-template-columns: 0.25fr 0.5fr 0.5fr 0.25fr;
   }
   .button2 {
-    font-size: 12px !important;
+    padding: 8px 8px !important;
+    border-radius: 5px !important;
+    font-size: 10px !important;
     grid-column: 2/4;
     justify-content: start !important;
     font-family: "Arial", "Roboto", "Helvetica",  sans-serif !important;
   }
   .content-4-button-box {
     display: grid;
-    grid-template-columns: 0.25fr 0.5fr 0.5fr 0.25fr;
+    grid-template-columns: 0.25fr 0.5fr 0.25fr 0.3fr 0.25fr;
   }
   .content-4-icon {
     width: 30px !important;
