@@ -47,7 +47,7 @@ function SolarCalculator() {
       ) : index == 5 ? (
         <SolarCalculatorDirection data={SolarData[index]} getUserData={getUserData}/>
       ) : (
-        <SolarCalculatorForm />
+        <SolarCalculatorForm   getUserData={getUserData}/>
       )}
     </div>
   );
