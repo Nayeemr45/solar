@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import SolarCalculatorCard from "../components/SolarCalculatorCard";
 import SolarCalculatorForm from "../components/SolarCalculatorForm";
+import SolarCalculatorDirection from "../components/SolarCalculatorDirection";
 import { SolarCalculatorData } from "../Assets/data/SolarCalculatorData";
-import '../Assets/Css/Solar_Calculator.css'
+import "../Assets/Css/Solar_Calculator.css";
 import { Box, Grid } from "@material-ui/core";
 
 function SolarCalculator() {
@@ -21,7 +22,7 @@ function SolarCalculator() {
 
   return (
     <div className="solar-calculator">
-      {index < 6 ? (
+      {index < 5 ? (
         SolarData[index].map((itemData) => (
           <Box className="solar-calculator-box">
             <Grid
@@ -43,6 +44,8 @@ function SolarCalculator() {
             </Grid>
           </Box>
         ))
+      ) : index == 5 ? (
+        <SolarCalculatorDirection data={SolarData[index]} getUserData={getUserData}/>
       ) : (
         <SolarCalculatorForm />
       )}
