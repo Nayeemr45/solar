@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SolarCalculatorCard from "../components/SolarCalculatorCard";
+import SolarCalculatorForm from "../components/SolarCalculatorForm";
 import { SolarCalculatorData } from "../Assets/data/SolarCalculatorData";
 
 function SolarCalculator() {
@@ -9,9 +10,10 @@ function SolarCalculator() {
 
   const getUserData = (data) => {
     setUserData(userData.concat(data));
-    if (index < SolarCalculatorData.length - 1) {
-      setIndex(index + 1);
-    }
+    setIndex(index + 1);
+    // if (index < SolarCalculatorData.length - 1) {
+    //   setIndex(index + 1);
+    // }
   };
 
   useEffect(() => {
@@ -20,9 +22,11 @@ function SolarCalculator() {
 
   return (
     <>
-      {SolarData[index].map((itemData) => (
+      {index < 6 ?
+      SolarData[index].map((itemData) => (
         <SolarCalculatorCard data={itemData} getUserData={getUserData} />
-      ))}
+      )) : <SolarCalculatorForm/>
+      }
     </>
   );
 }
