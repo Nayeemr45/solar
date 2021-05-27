@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Gotham-bold';
-  src: local('Gotham-bold'), url(../Fonts/Gotham-Bold.otf) format('truetype');
+  font-family: "Gotham-bold";
+  src: local("Gotham-bold"), url(../Fonts/Gotham-Bold.otf) format("truetype");
 }
 @font-face {
-  font-family: 'Gotham-Medium';
-  src: local('Gotham-Medium'), url(../Fonts/GothamMedium.ttf) format('truetype');
+  font-family: "Gotham-Medium";
+  src: local("Gotham-Medium"), url(../Fonts/GothamMedium.ttf) format("truetype");
 }
 
 .section-1 {
@@ -28,7 +28,7 @@
   font-weight: 600 !important;
   opacity: 0.1;
   line-height: 0.9 !important;
-  font-family: 'Gotham-bold' !important;
+  font-family: "Gotham-bold" !important;
   text-align: left !important;
 }
 .heading2 {
@@ -37,7 +37,7 @@
   font-weight: 600 !important;
   line-height: 1.059 !important;
   letter-spacing: 0.08em !important;
-  font-family: 'Gotham-bold' !important;
+  font-family: "Gotham-bold" !important;
   text-align: left !important;
   margin-top: -105px !important;
 }
@@ -45,13 +45,9 @@
 .MuiListItemText-primary {
   color: var(--second-text-color) !important;
   font-size: 19px !important;
-  font-family: 'Gotham-Medium' !important;
+  font-family: "Gotham-Medium" !important;
   line-height: 3.5 !important;
 }
-
-.MuiListItem-gutters {
-/*   padding: 0 !important;
- */}
 
 .button {
   background-color: var(--button-color) !important;
@@ -59,17 +55,21 @@
   border-radius: 5px !important;
   padding: 14px 16px !important;
   font-size: 16px !important;
-  font-family: 'Gotham-Medium' !important;
+  font-family: "Gotham-Medium" !important;
   text-transform: none !important;
   margin-top: 2rem !important;
   text-align: center;
 }
-.new-button{
+.button-link {
+  color: var(--button-text-color) !important;
+  text-decoration: none;
+}
+.new-button {
   background-color: var(--button-color) !important;
   color: #fff !important;
   border-radius: 10px !important;
   font-size: 14px !important;
-  font-family: 'Gotham-Medium' !important;
+  font-family: "Gotham-Medium" !important;
   text-transform: none !important;
 }
 .icon {
@@ -88,15 +88,15 @@
     background-image: url(../Images/section-1-background-2.jpg) !important;
     width: 100% !important;
   }
-  .section-1-svg svg{
+  .section-1-svg svg {
     fill: var(--icon-color) !important;
     stroke: var(--icon-color) !important;
   }
-  .section-1-svg path{
+  .section-1-svg path {
     fill: var(--icon-color) !important;
     stroke: var(--icon-color) !important;
   }
-  .section-1-svg #Ellipse_2{
+  .section-1-svg #Ellipse_2 {
     stroke: var(--icon-color) !important;
   }
   /* .MuiButton-root {
@@ -106,7 +106,7 @@
     font-size: 54px !important;
     font-weight: 600 !important;
     line-height: 1.059 !important;
-    font-family: 'Gotham-bold' !important;
+    font-family: "Gotham-bold" !important;
     text-align: left !important;
     /*     margin: 0px 30px !important;
  */
@@ -117,43 +117,40 @@
     font-weight: 600 !important;
     line-height: 1.059 !important;
     letter-spacing: 0.08em !important;
-    font-family: 'Gotham-bold' !important;
+    font-family: "Gotham-bold" !important;
     text-align: left !important;
     /* margin: 0px 35px !important;
     margin-top: -105px !important; */
   }
-  .section-1-list{
-/*       padding-bottom: 20px !important;
- */  }
   .button {
     background-color: var(--button-color) !important;
     color: #fff !important;
     border-radius: 5px !important;
     padding: 8px 8px !important;
     font-size: 10px !important;
-    font-family: "Arial", "Roboto", "Helvetica",  sans-serif !important;
+    font-family: "Arial", "Roboto", "Helvetica", sans-serif !important;
     text-transform: none !important;
     display: flex !important;
     align-items: center !important;
     line-height: 1.5 !important;
   }
-/*   .main-btn{
+  /*   .main-btn{
     background-color: var(--button-color) !important;
     font-size: 10px !important;
     font-family: 'Gotham-Medium' !important;
   } */
-  .new-button{
+  .new-button {
     background-color: var(--button-color) !important;
     color: rgb(255, 0, 0) !important;
     border-radius: 5px !important;
     font-size: 10px !important;
-    font-family: 'Gotham-Medium' !important;
+    font-family: "Gotham-Medium" !important;
     text-transform: none !important;
     padding: 8px 8px;
     text-align: left;
   }
   .icon {
-   width: 30px !important;
+    width: 30px !important;
     height: 20px !important;
     padding-left: 10px !important;
     justify-content: flex-end !important;
@@ -164,7 +161,7 @@
   .MuiListItemText-primary {
     color: var(--text-color) !important;
     font-size: 10px !important;
-    font-family: 'Gotham-Medium' !important;
+    font-family: "Gotham-Medium" !important;
     line-height: 3.5 !important;
   }
   .section-1-grid {
@@ -172,20 +169,20 @@
     display: grid !important;
     grid-template-columns: 0.25fr 0.5fr 0.5fr 0.25fr;
   }
-  .section-1-grid-1{
-      grid-column: 1 / 2;
+  .section-1-grid-1 {
+    grid-column: 1 / 2;
   }
-  .section-1-grid-2{
-      grid-column: 2 / 4;
+  .section-1-grid-2 {
+    grid-column: 2 / 4;
   }
-  .section-1-grid-3{
-      grid-column: 4 / 5;
+  .section-1-grid-3 {
+    grid-column: 4 / 5;
   }
-  .section-1-grid-4{
-      grid-column: 2 / 5;
+  .section-1-grid-4 {
+    grid-column: 2 / 5;
   }
-  .section-1-grid-5{
-      grid-column: 1 / 2;
+  .section-1-grid-5 {
+    grid-column: 1 / 2;
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
@@ -202,8 +199,7 @@
   }
   .MuiListItemText-primary {
     font-size: 9px !important;
-}
-
+  }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
   .heading {
@@ -217,5 +213,4 @@
   .MuiListItemText-primary {
     font-size: 15px !important;
   }
- 
 }

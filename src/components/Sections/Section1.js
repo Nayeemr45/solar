@@ -12,6 +12,7 @@ import {
   ListItemAvatar,
   Container,
 } from '@material-ui/core';
+import {Link as RouterLink} from 'react-router-dom';
 import SolarOne from '../../Assets/Images/Artboard1.jpg';
 import Icon1 from '../../Assets/Icons/icon1.svg';
 import Icon2 from '../../Assets/Icons/icon2.svg';
@@ -238,7 +239,7 @@ const Section1 = () => {
               </ListItem>
               <ListItem>
                 <Button className="button">
-                  Start The Solar Calculator
+                <RouterLink to='/SolarCalculator' className="button-link">Start The Solar Calculator</RouterLink>
                   <ListItemAvatar className="avatar">
                     <Avatar src={Icon4} className="icon"></Avatar>
                   </ListItemAvatar>
