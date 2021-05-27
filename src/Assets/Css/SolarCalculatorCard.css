@@ -15,10 +15,7 @@
   display: grid;
   align-items: center;
 }
-.MuiGrid-container {
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-}
+
 .card {
   justify-content: center !important;
 }

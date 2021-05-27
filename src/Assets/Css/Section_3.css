@@ -102,7 +102,7 @@
     height: 300px;
   }
   .sectoin-3-heading {
-    font-size: 28px !important;
+    font-size: 26px !important;
   }
   .img {
     margin-top: 140px !important;
@@ -156,6 +156,9 @@
 }
 .sectoin-3-left {
   padding-top: 8rem;
+}
+.MuiGrid-container {
+  grid-column-gap: 0px !important;
 }
 
 }
