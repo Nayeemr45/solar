@@ -34,7 +34,6 @@ function SolarCalculator() {
               <Grid item xs={1} className="section-2-grid-1"></Grid>
               <Grid item sm xs className="section-2-grid-2">
                 <SolarCalculatorCard
-                  key={itemData.id}
                   data={itemData}
                   getUserData={getUserData}
                   className="solar-calculator"

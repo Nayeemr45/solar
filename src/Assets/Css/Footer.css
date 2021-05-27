@@ -2,6 +2,7 @@
   width: 100%;
   display: grid;
   height: 20rem;
+  margin-top: 15rem;
   background-color: var(--footer-background-color);
 /*   background-color: red;
  */}
