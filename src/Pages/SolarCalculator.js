@@ -24,7 +24,7 @@ function SolarCalculator() {
     <div className="solar-calculator">
       {index < 5 ? (
         SolarData[index].map((itemData) => (
-          <Box className="solar-calculator-box">
+          <Box className="solar-calculator-box" key={itemData.id}>
             <Grid
               container
               direction="row"
