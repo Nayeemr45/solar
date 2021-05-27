@@ -19,17 +19,17 @@
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
-.Solarcardcard {
+.solar-card {
   justify-content: center !important;
 }
-.card-img{
+.solar-card-img{
   height: 10rem;
   width: 10rem;
 }
 .solar-card-content {
   min-width: 340px !important;
   min-height: 250px !important;
-  justify-content: center !important;
+  justify-items: center !important;
   display: grid;
   align-items: center;
   text-align: center;
@@ -38,28 +38,28 @@
 .card-content {
   background-color: rgba(251, 185, 6, 0.08) !important;
 }
-.card-content:hover {
+.solar-card-content:hover {
   background: var(--card-hover-color) !important;
   color: #fff !important;
 }
-.card-content:hover > .title {
+.solar-card-content:hover > .title {
   color: #fff !important;
 }
-.card-content:hover > .sub-title {
+.solar-card-content:hover > .sub-title {
   color: #fff !important;
 }
-.card-content:hover > .icon-avatar {
+.solar-card-content:hover > .icon-avatar {
   fill: red !important;
   content: url(../Icons/icon5_hover.svg) !important;
 }
-.card-content:hover > .icon-avatar {
+.solar-card-content:hover > .icon-avatar {
   fill: red !important;
   content: url(../Icons/icon5_hover.svg) !important;
 }
-.card-content:hover > svg #Rectangle_598 {
+.solar-card-content:hover > svg #Rectangle_598 {
  fill: #fff !important;
 }
-.card-content:hover > svg #Path_47 {
+.solar-card-content:hover > svg #Path_47 {
  fill: var(--card-icon-color) !important;
 }
 
@@ -85,7 +85,7 @@
   .section-2-grid {
     display: grid !important;
   }
-  .card-content {
+  .solar-card-content {
     min-width: 100px !important;
     min-height: 100px !important;
     justify-content: center !important;
@@ -111,7 +111,7 @@
   .section-2-grid {
     grid-column-gap: 0px !important;
   }
-  .card {
+  .solar-card {
     max-width: 350px;
   }
 }
@@ -135,10 +135,10 @@
   .section-2-grid-5 {
     grid-column: 5/6;
   }
-  .card {
+  .solar-card {
     max-width: 350px;
   }
-  .card-content {
+  .solar-card-content {
     min-width: 215px !important;
     max-width: 215px !important;
     min-height: 250px !important;
@@ -174,7 +174,7 @@
   .section-2-grid-5 {
     grid-column: 5/6;
   }
-  .card {
+  .solar-card {
     max-width: 350px;
   }
 }

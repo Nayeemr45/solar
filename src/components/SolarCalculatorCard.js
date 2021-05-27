@@ -12,11 +12,11 @@ const Cards = ({ data, getUserData }) => {
   return (
     <div>
       
-      <Card className="Solarcard" onClick={setData}>
+      <Card className="solar-card" onClick={setData}>
         <CardActionArea>
-          <CardContent className="card-content">
+          <CardContent className="solar-card-content">
             {" "}
-            <img src={data.icon} alt={""} className="card-img" />
+            <img src={data.icon} alt={""} className="solar-card-img" />
             <Typography variant="h5" component="h2" className="title">
               {data.text}
             </Typography>

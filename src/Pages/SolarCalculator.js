@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import SolarCalculatorCard from "../components/SolarCalculatorCard";
 import SolarCalculatorForm from "../components/SolarCalculatorForm";
 import { SolarCalculatorData } from "../Assets/data/SolarCalculatorData";
-
+import '../Assets/Css/Solar_Calculator.css'
 import { Box, Grid } from "@material-ui/core";
 
 function SolarCalculator() {
@@ -20,10 +20,10 @@ function SolarCalculator() {
   }, [userData]);
 
   return (
-    <>
+    <div className="solar-calculator">
       {index < 6 ? (
         SolarData[index].map((itemData) => (
-          <Box className="section-2">
+          <Box className="solar-calculator-box">
             <Grid
               container
               direction="row"
@@ -47,7 +47,7 @@ function SolarCalculator() {
       ) : (
         <SolarCalculatorForm />
       )}
-    </>
+    </div>
   );
 }
 
