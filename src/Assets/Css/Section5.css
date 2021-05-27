@@ -533,7 +533,7 @@
   margin-top: 100px;
 }
 .content-5-grid {
-  grid-column-gap: 0px;
+  grid-column-gap: 0px !important;
 }
 .content-5-heading {
   font-size: 36px !important;
