@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  display: grid;
+  height: 400px;
+  background-color: var(--footer-background-color);
+/*   background-color: red;
+ */}
+.logo{
+    width: 10rem;
+    margin-bottom: 1rem !important;
+}
+.footer-icon{
+    color: var(--footer-icon) !important;
+}
+.footer-heading{
+    font-family: 'Gotham-Book' !important;
+    font-size: 18px !important;
+    color: var(--text-color2) !important;
+    text-align: center;
+}
+.footer-Address{
+    font-family: 'Gotham-Book' !important;
+    font-size: 14px !important;
+    color: var(--text-color2) !important;
+    text-align: center;
+}
+.footer-grid-3{
+    grid-column-gap: 0px !important; 
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+}
+.footer-grid-4 , .footer-grid-5 , .footer-grid-6{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}

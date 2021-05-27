@@ -11,9 +11,6 @@
   src: local('Gotham-Book'), url(../Fonts/GothamBook.ttf) format('truetype');
 }
 .section-5 {
-  /*   height: 5200px;
- */
-  margin-bottom: 380px;
 }
 
 .content-1 {
@@ -183,12 +180,12 @@
   }
   .content-2-box-2-grid {
     grid-column-gap: 30px !important;
-}
+  }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
   .content-2-box-2-grid {
     grid-column-gap: 30px !important;
-}
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .content-2-box-4-heading {
@@ -202,8 +199,7 @@
   }
   .content-2-box-2-grid {
     grid-column-gap: 30px !important;
-}
-
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .content-2-grid {
@@ -461,7 +457,7 @@
     font-size: 10px !important;
     grid-column: 2/4;
     justify-content: start !important;
-    font-family: "Arial", "Roboto", "Helvetica",  sans-serif !important;
+    font-family: 'Arial', 'Roboto', 'Helvetica', sans-serif !important;
   }
   .content-4-button-box {
     display: grid;
