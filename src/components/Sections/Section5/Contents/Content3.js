@@ -9,7 +9,7 @@ import {
 } from '@material-ui/core';
 import Icon4 from '../../../../Assets/Icons/icon4.svg';
 import '../../../../Assets/Css/Section5.css';
-import SVG from './Content3_svg'
+import SVG from './Content3_svg';
 const Content3 = () => {
   return (
     <div className="content-3">
@@ -24,8 +24,7 @@ const Content3 = () => {
             <Grid item xs={12} sm={5}>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <SVG />
-
+                  <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -37,11 +36,6 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                  {/* <img
-                    src={Check_icon}
-                    alt={''}
-                    className="content-3-list-icon-img"
-                  /> */}
                   <SVG />
                 </span>
                 <Typography
@@ -54,7 +48,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <SVG />
+                  <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -66,7 +60,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <SVG />
+                  <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -81,7 +75,7 @@ const Content3 = () => {
             <Grid item xs={12} sm={5}>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <SVG />
+                  <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -93,7 +87,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <SVG />
+                  <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -105,7 +99,7 @@ const Content3 = () => {
               </div>
               <div className="content-3-list-div">
                 <span className="content-3-list-icon">
-                <SVG />
+                  <SVG />
                 </span>
                 <Typography
                   variant="h4"
@@ -121,7 +115,22 @@ const Content3 = () => {
             <Button className="button">
               Our solar solution
               <ListItemAvatar className="avatar">
-                <Avatar src={Icon4} className="icon"></Avatar>
+                <svg
+                  className="icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16.608"
+                  height="16.608"
+                  viewBox="0 0 16.608 16.608"
+                >
+                  <defs></defs>
+                  <path
+                    id="Icon_ionic-ios-arrow-dropleft-circle"
+                    data-name="Icon ionic-ios-arrow-dropleft-circle"
+                    className="cls-1"
+                    d="M11.679,3.375a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,11.679,3.375ZM9.946,14.917a.774.774,0,0,0,0,1.09.761.761,0,0,0,.543.224A.774.774,0,0,0,11.036,16l3.753-3.765a.77.77,0,0,0-.024-1.062L10.957,7.355a.771.771,0,0,0-1.09,1.09l3.27,3.234Z"
+                    transform="translate(-3.375 -3.375)"
+                  />
+                </svg>
               </ListItemAvatar>
             </Button>
           </Box>

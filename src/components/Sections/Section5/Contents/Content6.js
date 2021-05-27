@@ -65,34 +65,28 @@ const Content6 = () => {
                 >
                   Are you a business customer?
                 </Typography>
-                {/* <Button className="button">
-                  Contact us here 
-              <ListItemAvatar className="avatar">
-              <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="15.014"
-                  height="14.163"
-                  viewBox="0 0 15.014 14.163"
-                >
-                  <path
-                    id="Icon_ionic-md-arrow-round-back"
-                    data-name="Icon ionic-md-arrow-round-back"
-                    d="M6.926,12.046h9.13L12.516,8.658a1.411,1.411,0,0,1,0-1.928,1.262,1.262,0,0,1,1.843,0l5.9,5.717a1.3,1.3,0,0,1,.384.956v.017a1.3,1.3,0,0,1-.384.956l-5.892,5.717a1.262,1.262,0,0,1-1.843,0,1.411,1.411,0,0,1,0-1.928l3.541-3.388H6.931a1.336,1.336,0,0,1-1.306-1.365A1.322,1.322,0,0,1,6.926,12.046Z"
-                    transform="translate(-5.625 -6.33)"
-                    fill="var(--button-color)"
-                  />
-                </svg>
-              </ListItemAvatar>
-            </Button> */}
                 <Button className="button">
                   Contact us here
                   <ListItemAvatar className="avatar">
-                    <Avatar src={Icon4} className="icon"></Avatar>
+                    <svg
+                      className="icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16.608"
+                      height="16.608"
+                      viewBox="0 0 16.608 16.608"
+                    >
+                      <defs></defs>
+                      <path
+                        id="Icon_ionic-ios-arrow-dropleft-circle"
+                        data-name="Icon ionic-ios-arrow-dropleft-circle"
+                        className="cls-1"
+                        d="M11.679,3.375a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,11.679,3.375ZM9.946,14.917a.774.774,0,0,0,0,1.09.761.761,0,0,0,.543.224A.774.774,0,0,0,11.036,16l3.753-3.765a.77.77,0,0,0-.024-1.062L10.957,7.355a.771.771,0,0,0-1.09,1.09l3.27,3.234Z"
+                        transform="translate(-3.375 -3.375)"
+                      />
+                    </svg>
                   </ListItemAvatar>
                 </Button>
               </Grid>
-              {/*               <Grid item xs={2} sm={2}></Grid>
-               */}
             </Grid>
           </div>
         </Box>

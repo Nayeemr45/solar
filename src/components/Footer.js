@@ -16,9 +16,9 @@ const Footer = () => {
   return (
     <Box className="footer">
       <Grid container className="footer-grid-1">
-        <Grid item xs={1} sm={1} className="footer-grid-2"></Grid>
-        <Grid container item xs={1} sm className="footer-grid-3">
-          <Grid item xs={1} sm={4} className="footer-grid-4">
+        <Grid item  sm={1} className="footer-grid-2"></Grid>
+        <Grid container item  sm className="footer-grid-3">
+          <Grid item  sm={4} className="footer-grid-4">
             <img src={Logo2} className="logo" />
 
             <Typography variant="h6" component="h1" className="footer-Address">
@@ -29,7 +29,7 @@ const Footer = () => {
               lbiza,Baleares,Spain
             </Typography>
           </Grid>
-          <Grid item xs={1} sm={4} className="footer-grid-5">
+          <Grid item  sm={4} className="footer-grid-5">
             <Typography variant="h6" component="h1" className="footer-heading">
               FOLLOW US
             </Typography>
@@ -38,7 +38,7 @@ const Footer = () => {
             <InstagramIcon className="footer-icon" fontSize="large"/>
             </Typography>
           </Grid>
-          <Grid item xs={1} sm={4} className="footer-grid-6">
+          <Grid item  sm={4} className="footer-grid-6">
             <Typography variant="h6" component="h6" className="footer-heading">
               HOW TO REACH US
             </Typography>
@@ -50,7 +50,7 @@ const Footer = () => {
             </Typography>
           </Grid>
         </Grid>
-        <Grid item xs={1} sm={1} className="footer-grid-7"></Grid>
+        <Grid item  sm={1} className="footer-grid-7"></Grid>
       </Grid>
     </Box>
   );

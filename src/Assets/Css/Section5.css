@@ -444,9 +444,7 @@
     font-size: 11px !important;
     grid-column: 2/4;
   }
-  .content-4-button-box {
-    margin-top: 0px !important;
-  }
+ 
   .content-4-box-right {
     display: grid;
     grid-template-columns: 0.25fr 0.5fr 0.5fr 0.25fr;
@@ -460,8 +458,8 @@
     font-family: 'Arial', 'Roboto', 'Helvetica', sans-serif !important;
   }
   .content-4-button-box {
-    display: grid;
-    grid-template-columns: 0.25fr 0.5fr 0.25fr 0.3fr 0.25fr;
+    grid-column: 2/4;
+    margin-top: 5px !important;
   }
   .content-4-icon {
     width: 30px !important;
@@ -752,6 +750,9 @@
   }
 }
 @media (min-width: 481px) and (max-width: 768px) {
+  .content-6{
+  height: 25rem !important;
+  }
   .content-6-img {
     width: 20rem;
   }

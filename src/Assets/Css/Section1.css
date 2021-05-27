@@ -72,6 +72,9 @@
   font-family: "Gotham-Medium" !important;
   text-transform: none !important;
 }
+svg{
+  fill: var(--button-icon);
+}
 .icon {
   width: 30px !important;
   height: 20px !important;
@@ -94,7 +97,6 @@
   }
   .section-1-svg path {
     fill: var(--icon-color) !important;
-    stroke: var(--icon-color) !important;
   }
   .section-1-svg #Ellipse_2 {
     stroke: var(--icon-color) !important;

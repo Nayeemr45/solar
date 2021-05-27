@@ -59,13 +59,12 @@ const Section1 = () => {
             <List>
               <ListItem className="section-1-list">
                 <ListItemAvatar>
-                  {/* <Avatar src={Icon1}></Avatar> */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="44"
                     height="44"
                     viewBox="0 0 44 44"
-                    className='section-1-svg'
+                    className="section-1-svg"
                   >
                     <g
                       id="Group_45865"
@@ -123,13 +122,12 @@ const Section1 = () => {
               </ListItem>
               <ListItem className="section-1-list">
                 <ListItemAvatar>
-                  {/*  <Avatar src={Icon2}></Avatar> */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="44"
                     height="44"
                     viewBox="0 0 44 44"
-                    className='section-1-svg'
+                    className="section-1-svg"
                   >
                     <g
                       id="Group_45867"
@@ -190,13 +188,12 @@ const Section1 = () => {
               </ListItem>
               <ListItem className="section-1-list">
                 <ListItemAvatar>
-                  {/*  <Avatar src={Icon3}></Avatar> */}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="44"
                     height="44"
                     viewBox="0 0 44 44"
-                    className='section-1-svg'
+                    className="section-1-svg"
                   >
                     <g
                       id="Group_45868"
@@ -239,9 +236,26 @@ const Section1 = () => {
               </ListItem>
               <ListItem>
                 <Button className="button">
-                <RouterLink to='/SolarCalculator' className="button-link">Start The Solar Calculator</RouterLink>
+                  <RouterLink to="/SolarCalculator" className="button-link">
+                    Start The Solar Calculator
+                  </RouterLink>
                   <ListItemAvatar className="avatar">
-                    <Avatar src={Icon4} className="icon"></Avatar>
+                    <svg
+                      className="icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16.608"
+                      height="16.608"
+                      viewBox="0 0 16.608 16.608"
+                    >
+                      <defs></defs>
+                      <path
+                        id="Icon_ionic-ios-arrow-dropleft-circle"
+                        data-name="Icon ionic-ios-arrow-dropleft-circle"
+                        className="cls-1"
+                        d="M11.679,3.375a8.3,8.3,0,1,1-8.3,8.3A8.3,8.3,0,0,1,11.679,3.375ZM9.946,14.917a.774.774,0,0,0,0,1.09.761.761,0,0,0,.543.224A.774.774,0,0,0,11.036,16l3.753-3.765a.77.77,0,0,0-.024-1.062L10.957,7.355a.771.771,0,0,0-1.09,1.09l3.27,3.234Z"
+                        transform="translate(-3.375 -3.375)"
+                      />
+                    </svg>
                   </ListItemAvatar>
                 </Button>
               </ListItem>
