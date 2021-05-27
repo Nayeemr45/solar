@@ -19,8 +19,12 @@
   grid-column-gap: 30px;
   grid-row-gap: 30px;
 }
-.card {
+.Solarcardcard {
   justify-content: center !important;
+}
+.card-img{
+  height: 10rem;
+  width: 10rem;
 }
 .card-content {
   min-width: 340px !important;
