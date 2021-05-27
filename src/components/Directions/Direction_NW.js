@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Direction = () => {
+const Direction_NW = () => {
   return (
     <div>
       <svg
@@ -9,7 +9,7 @@ const Direction = () => {
         height="427.43"
         viewBox="0 0 494.043 427.43"
       >
-        <g id="iconN" fill="none">
+        <g id="Path_14" data-name="Path 14" fill="none">
           <path
             d="M247.021,0,494.043,427.43,247.021,219.266,0,427.43Z"
             stroke="none"
@@ -17,7 +17,7 @@ const Direction = () => {
           <path
             d="M 247.0213775634766 19.9852294921875 L 37.24755859375 382.96484375 L 240.5773010253906 211.6194458007813 L 247.0213012695313 206.1890869140625 L 253.4653015136719 211.6194458007813 L 456.7952270507813 382.9649047851563 L 247.0213775634766 19.9852294921875 M 247.0213775634766 0 L 494.042724609375 427.4304504394531 L 247.0213012695313 219.2662963867188 L 3.0517578125e-05 427.4304504394531 L 247.0213775634766 0 Z"
             stroke="none"
-            fill="#000"
+            fill="var(--direction-hover-color)"
           />
         </g>
       </svg>
@@ -25,4 +25,4 @@ const Direction = () => {
   );
 };
 
-export default Direction;
+export default Direction_NW;

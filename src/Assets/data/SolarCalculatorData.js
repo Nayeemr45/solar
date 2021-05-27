@@ -21,7 +21,8 @@ import iconSE from "../Icons/iconSE.svg";
 import iconSW from "../Icons/iconSW.svg";
 import iconE from "../Icons/iconE.svg";
 import iconW from "../Icons/iconW.svg";
-import Direction from "../../components/Direction";
+import Direction_N from "../../components/Directions/Direction_N";
+import Direction_NW from "../../components/Directions/Direction_NW";
 
 export const SolarCalculatorData = [
   [
@@ -53,14 +54,13 @@ export const SolarCalculatorData = [
     { id: uuidv4(), text: "approx. 60 m² and more", icon: icon24 },
   ],
   [
-    { id: uuidv4(), text: "NW", icon: <Direction/> },
-   // { id: uuidv4(), text: "NW", icon: iconNW },
-    { id: uuidv4(), text: "N", icon: <Direction/> },
-    // { id: uuidv4(), text: "NE", icon: iconNE },
-    // { id: uuidv4(), text: "E", icon: iconE },
-    // { id: uuidv4(), text: "SE", icon: iconSE },
-    // { id: uuidv4(), text: "S", icon: iconS },
-    // { id: uuidv4(), text: "Sw", icon: iconSW },
-    // { id: uuidv4(), text: "w", icon: iconW },
+    { id: uuidv4(), text: "N", icon: <Direction_N/> },
+    { id: uuidv4(), text: "NW", icon: <Direction_N/> },
+    { id: uuidv4(), text: "NE", icon: <Direction_N/>},
+    { id: uuidv4(), text: "E", icon: <Direction_N/> },
+    { id: uuidv4(), text: "SE", icon: <Direction_N/> },
+    { id: uuidv4(), text: "S", icon: <Direction_N/> },
+    { id: uuidv4(), text: "Sw", icon: <Direction_N/> },
+    { id: uuidv4(), text: "w", icon: <Direction_N/> },
   ],
 ];

@@ -1,0 +1,69 @@
+.direction-div {
+  grid-column: 2/4 !important;
+  justify-content: center;
+  justify-items: center;
+  display: grid;
+}
+
+.direction svg {
+  width: 4rem;
+  height: 4rem;
+}
+
+.direction svg #direction_path {
+  fill: var(--direction-hover-color) !important;
+}
+#iconN {
+  fill: #fff !important;
+}
+.direction svg:hover > #iconN {
+  fill: var(--direction-hover-color) !important;
+}
+
+.direction-span-N svg,
+.direction-span-E svg,
+.direction-span-S svg,
+.direction-span-W svg {
+  width: 6rem;
+  height: 6rem;
+}
+.direction-span-E {
+  transform: rotate(180deg) translate(-6rem, 8.5rem) rotate(270deg) !important;
+}
+.direction-span-W {
+  transform: rotate(180deg) translate(6rem, 29rem) rotate(90deg) !important;
+}
+.direction-span-S {
+  transform: rotate(180deg) translate(0rem, 13rem) rotate(0deg) !important;
+}
+.direction-span-NW {
+  transform: rotate(180deg) translate(4.5rem, 4.5rem) rotate(129deg) !important;
+}
+.direction-span-SW {
+  transform: rotate(180deg) translate(5rem, 19rem) rotate(46deg) !important;
+}
+.direction-span-SE {
+  transform: rotate(180deg) translate(-4.5rem, 8.5rem) rotate(315deg) !important;
+}
+.direction-span-NE {
+  transform: rotate(180deg) translate(-4.5rem, 8.5rem) rotate(230deg) !important;
+}
+.direction-N {
+  transform: rotate(180deg) translate(0rem, -4.5rem) rotate(180deg) !important;
+}
+.direction-W {
+  transform: rotate(180deg) translate(9.5rem, -12.8rem) rotate(180deg) !important;
+}
+.direction-E {
+  transform: rotate(180deg) translate(-9.5rem, -11.2rem) rotate(180deg) !important;
+}
+.direction-S {
+  transform: rotate(180deg) translate(0rem, -19.5rem) rotate(180deg) !important;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .direction-div {
+    grid-column: 1/4 !important;
+    margin-top: 5rem !important;
+  }
+}
