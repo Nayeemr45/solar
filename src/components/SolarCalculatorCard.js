@@ -15,7 +15,7 @@ const Cards = ({ data, getUserData }) => {
         <CardActionArea>
           <CardContent className="solar-card-content">
             {" "}
-            <img src={data.icon} alt={""} className="solar-card-img" />
+            <span className="solar-card-img">{data.icon}</span>
             <Typography variant="h5" component="h2" className="title">
               {data.text}
             </Typography>

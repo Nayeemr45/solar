@@ -23,10 +23,11 @@ import iconE from "../Icons/iconE.svg";
 import iconW from "../Icons/iconW.svg";
 import Direction_N from "../../components/Directions/Direction_N";
 import Direction_NW from "../../components/Directions/Direction_NW";
+import Icon1 from "../../components/Icons/Icon1";
 
 export const SolarCalculatorData = [
   [
-    { id: uuidv4(), text: "1-2", icon: icon11 },
+    { id: uuidv4(), text: "1-2", icon: <Icon1 /> },
     { id: uuidv4(), text: "3", icon: icon12 },
     { id: uuidv4(), text: "4th", icon: icon13 },
     { id: uuidv4(), text: "5 and more", icon: icon14 },

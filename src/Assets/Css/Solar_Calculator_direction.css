@@ -6,6 +6,7 @@
 }
 
 .direction svg {
+  cursor: pointer !important;
   width: 4rem;
   height: 4rem;
 }
@@ -24,6 +25,7 @@
 .direction-span-E svg,
 .direction-span-S svg,
 .direction-span-W svg {
+  cursor: pointer !important;   
   width: 6rem;
   height: 6rem;
 }

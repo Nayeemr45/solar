@@ -72,7 +72,7 @@
   font-family: "Gotham-Medium" !important;
   text-transform: none !important;
 }
-svg{
+.avatar svg{
   fill: var(--button-icon);
 }
 .icon {

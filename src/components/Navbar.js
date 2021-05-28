@@ -72,6 +72,7 @@ const useStyles = makeStyles((theme) => ({
     height: '100%',
     borderRadius: 0,
     justifyContent: 'flex-start',
+    cursor: 'pointer'
   },
   link: {
     paddingRight: '20px',
@@ -258,7 +259,7 @@ const Navbar = () => {
 
   const mainlogo = (
     <Typography variant="h6" component="h1" className={logo}>
-      <Avatar src={Logo} className={classes.avatar} />
+     <RouterLink to='/'> <Avatar src={Logo} className={classes.avatar} /></RouterLink>
     </Typography>
   );
 

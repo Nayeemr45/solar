@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
   grid-column-gap: 30px;
+  margin-top: 1rem;
   justify-content: center;
 }
 .solar-calculator-form-div {
@@ -13,7 +14,12 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .solar-calculator {
+    grid-template-columns: 0.2fr 0.2fr 0.2fr !important;
+    grid-column-gap: 0px !important;
+    grid-row-gap: 1rem;
 
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -24,6 +30,7 @@
 
 @media (min-width: 481px) and (max-width: 768px) {
   .solar-calculator {
+    grid-row-gap: 1rem;
     grid-template-columns: 0.25fr !important;
   }
 }
