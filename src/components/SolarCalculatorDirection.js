@@ -1,6 +1,6 @@
 import { Typography } from '@material-ui/core';
 import React from 'react';
-import '../Assets/Css/Solar_Callculator_direction.css'
+import '../Assets/Css/Solar_Calculator_direction.css'
 const SolarCalculatorDirection = ({data,getUserData}) => {
 
   const setData = (directionData) => {

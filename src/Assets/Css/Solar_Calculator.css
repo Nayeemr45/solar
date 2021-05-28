@@ -4,8 +4,12 @@
   grid-column-gap: 30px;
   justify-content: center;
 }
-.solar-calculator-form {
+.solar-calculator-form-div {
   grid-column: 2 / 4;
+}
+.solar-calculator-form {
+  display: grid;
+  justify-content: center;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {

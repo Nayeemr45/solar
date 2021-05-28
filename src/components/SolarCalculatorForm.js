@@ -7,6 +7,8 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import Button from "@material-ui/core/Button";
 
+import '../Assets/Css/Solar_Calculator.css'
+import { Grid } from "@material-ui/core";
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
@@ -74,8 +76,8 @@ function SolarCalculatorForm({ getUserData }) {
 
   const classes = useStyles();
   return (
-    <div className="solar-calculator-form">
-      <form className={classes.root} noValidate autoComplete="off">
+    <div className="solar-calculator-form-div">
+      <form className="solar-calculator-form" noValidate autoComplete="off">
         <RadioGroup
           aria-label="gender"
           name="gender1"
@@ -85,6 +87,9 @@ function SolarCalculatorForm({ getUserData }) {
           <FormControlLabel value="male" control={<Radio />} label="Male" />
           <FormControlLabel value="female" control={<Radio />} label="Female" />
         </RadioGroup>
+        <Grid>
+        
+        <Grid container>
         <TextField
           id="outlined-basic"
           label="First name *"
@@ -99,6 +104,9 @@ function SolarCalculatorForm({ getUserData }) {
           value={surName}
           onChange={handleChangeSurName}
         />
+        </Grid>
+        <Grid item sm xs>
+        <Grid item sm xs>
         <TextField
           id="outlined-basic"
           label="Email (for contact confirmation) *"
@@ -106,6 +114,8 @@ function SolarCalculatorForm({ getUserData }) {
           value={email}
           onChange={handleChangeEmail}
         />
+        </Grid>
+        <Grid item sm xs>
         <TextField
           id="outlined-basic"
           label="Telephone (for callback) *"
@@ -113,6 +123,8 @@ function SolarCalculatorForm({ getUserData }) {
           value={telephone}
           onChange={handleChangeTelephone}
         />
+        </Grid>
+        <Grid item sm xs>
         <TextField
           id="outlined-basic"
           label="ZIP (potential property) *"
@@ -120,6 +132,8 @@ function SolarCalculatorForm({ getUserData }) {
           value={zip}
           onChange={handleChangeZip}
         />
+        </Grid>
+        <Grid item sm xs>
         <TextField
           id="outlined-basic"
           label="Street *"
@@ -127,6 +141,8 @@ function SolarCalculatorForm({ getUserData }) {
           value={street}
           onChange={handleChangeStreet}
         />
+        </Grid>
+        <Grid item sm xs>
         <TextField
           id="outlined-basic"
           label="House no. *"
@@ -134,6 +150,9 @@ function SolarCalculatorForm({ getUserData }) {
           value={houseNo}
           onChange={handleChangeHouse}
         />
+        </Grid>
+        </Grid>
+        </Grid>
         <FormControlLabel
           value="end"
           control={<Checkbox color="primary" onClick={handleChangeIsAgre} />}

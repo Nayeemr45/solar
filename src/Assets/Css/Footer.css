@@ -2,10 +2,9 @@
   width: 100%;
   display: grid;
   height: 20rem;
-  margin-top: 15rem;
+  margin-top: 1rem;
   background-color: var(--footer-background-color);
-/*   background-color: red;
- */}
+}
 .logo{
     width: 10rem;
     margin-bottom: 1rem !important;
