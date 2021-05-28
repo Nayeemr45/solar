@@ -19,7 +19,7 @@ const Icon1 = () => {
               id="Path"
               d="M0,0H1480V1480H0Z"
               fill="none"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
             <path
               id="Shape"
@@ -37,7 +37,7 @@ const Icon1 = () => {
               data-name="Path"
               d="M0,0H1480V1480H0Z"
               fill="none"
-              fill-rule="evenodd"
+              fillRule="evenodd"
             />
             <path
               id="Shape-2"

@@ -15,10 +15,7 @@
   display: grid;
   align-items: center;
 }
-.MuiGrid-container {
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-}
+
 .solar-card {
   justify-content: center !important;
 }
@@ -68,11 +65,27 @@
   fill: red !important;
   content: url(../Icons/icon5_hover.svg) !important;
 }
-.solar-card-content:hover > svg #Rectangle_598 {
+/* .solar-card-content:hover > svg #Rectangle_598 {
+ fill: #fff !important;
+} */
+/* .solar-card-content:hover > svg #Path_47 {
+ fill: var(--card-icon-color) !important;
+} */
+.solar-card-content:hover > .solar-card-img svg{
  fill: #fff !important;
 }
-.solar-card-content:hover > svg #Path_47 {
- fill: var(--card-icon-color) !important;
+.solar-card-content:hover > .solar-card-img svg path{
+ stroke: #fff !important;
+}
+.solar-card-content:hover > .solar-card-img svg #Rectangle_3{
+  fill: var(--card-hover-color);
+ stroke: #fff !important;
+}
+.solar-card-content:hover > .solar-card-img svg #g{
+ stroke: #fff !important;
+}
+.solar-card-content:hover > .solar-card-img svg #g1{
+ fill: #fff !important;
 }
 
 .title {

@@ -24,35 +24,48 @@ import iconW from "../Icons/iconW.svg";
 import Direction_N from "../../components/Directions/Direction_N";
 import Direction_NW from "../../components/Directions/Direction_NW";
 import Icon1 from "../../components/Icons/Icon1";
+import Icon2 from "../../components/Icons/Icon2";
+import Icon3 from "../../components/Icons/Icon3";
+import Icon4 from "../../components/Icons/Icon4";
+import Icon5 from "../../components/Icons/Icon5";
+import Icon6 from "../../components/Icons/Icon6";
+import Icon7 from "../../components/Icons/Icon7";
+import Icon8 from "../../components/Icons/Icon8";
+import Icon9 from "../../components/Icons/Icon9";
+import Icon10 from "../../components/Icons/Icon10";
+import Icon11 from "../../components/Icons/Icon11";
+import Icon12 from "../../components/Icons/Icon12";
+import Icon13 from "../../components/Icons/Icon13";
+import Icon14 from "../../components/Icons/Icon14";
 
 export const SolarCalculatorData = [
   [
     { id: uuidv4(), text: "1-2", icon: <Icon1 /> },
-    { id: uuidv4(), text: "3", icon: icon12 },
-    { id: uuidv4(), text: "4th", icon: icon13 },
-    { id: uuidv4(), text: "5 and more", icon: icon14 },
+    { id: uuidv4(), text: "3", icon: <Icon2 /> },
+    { id: uuidv4(), text: "4th", icon: <Icon3 /> },
+    { id: uuidv4(), text: "5 and more", icon: <Icon4 /> },
   ],
   [
-    { id: uuidv4(), text: "approx. 2,000 kWh", icon: icon21 },
-    { id: uuidv4(), text: "approx. 3,000 kWh", icon: icon22 },
-    { id: uuidv4(), text: "approx. 4,000 kWh", icon: icon23 },
-    { id: uuidv4(), text: "more than 5,000 kWh", icon: icon24 },
+    { id: uuidv4(), text: "approx. 2,000 kWh", icon: <Icon5 /> },
+    { id: uuidv4(), text: "approx. 3,000 kWh", icon: <Icon6 /> },
+    { id: uuidv4(), text: "approx. 4,000 kWh", icon: <Icon7 /> },
+    { id: uuidv4(), text: "more than 5,000 kWh", icon: <Icon8 /> },
   ],
   [
-    { id: uuidv4(), text: "Throughout the day", icon: icon31 },
-    { id: uuidv4(), text: "In the mornings and the evenings", icon: icon32 },
+    { id: uuidv4(), text: "Throughout the day", icon: <Icon9 /> },
+    { id: uuidv4(), text: "In the mornings and the evenings", icon: <Icon10 /> },
   ],
   [
-    { id: uuidv4(), text: "approx. 15 °", icon: icon41 },
-    { id: uuidv4(), text: "approx. 30 °", icon: icon42},
-    { id: uuidv4(), text: "approx. 45 °", icon: icon43 },
-    { id: uuidv4(), text: "approx. 60 °", icon: icon44 },
+    { id: uuidv4(), text: "approx. 15 °", icon: <Icon11 /> },
+    { id: uuidv4(), text: "approx. 30 °", icon: <Icon12 />},
+    { id: uuidv4(), text: "approx. 45 °", icon: <Icon13 /> },
+    { id: uuidv4(), text: "approx. 60 °", icon: <Icon14 /> },
   ],
   [
-    { id: uuidv4(), text: "approx. 20 m²", icon: icon21 },
-    { id: uuidv4(), text: "approx. 30 m²", icon: icon22 },
-    { id: uuidv4(), text: "approx. 45 m²", icon: icon23 },
-    { id: uuidv4(), text: "approx. 60 m² and more", icon: icon24 },
+    { id: uuidv4(), text: "approx. 20 m²", icon: <Icon5 /> },
+    { id: uuidv4(), text: "approx. 30 m²", icon: <Icon6 /> },
+    { id: uuidv4(), text: "approx. 45 m²", icon: <Icon7 /> },
+    { id: uuidv4(), text: "approx. 60 m² and more", icon: <Icon8 /> },
   ],
   [
     { id: uuidv4(), text: "N", icon: <Direction_N/> },
