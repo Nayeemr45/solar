@@ -65,3 +65,12 @@ export const SolarCalculatorData = [
     { id: uuidv4(), text: "w", icon: <Direction_N/> },
   ],
 ];
+
+export const SolarCalculatorQuestion = [
+  'How many people live in your household?',
+  'What is your average electricity consumption per year?',
+  'What time of the day do you mostly use electricity?',
+  'How steep is the slope of your roof?',
+  'How big is the usable roof area?',
+  'In which main direction is your roof surface oriented?',
+];

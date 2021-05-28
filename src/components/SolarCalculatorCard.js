@@ -10,7 +10,7 @@ const Cards = ({ data, getUserData }) => {
     getUserData(data);
   };
   return (
-    <div key={data.id}>
+    <div>
       <Card className="solar-card" onClick={setData}>
         <CardActionArea>
           <CardContent className="solar-card-content">
