@@ -7,6 +7,8 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Checkbox from "@material-ui/core/Checkbox";
 import Button from "@material-ui/core/Button";
 
+import "../Assets/Css/Solar_Calculator.css";
+
 const useStyles = makeStyles((theme) => ({
   root: {
     "& > *": {
@@ -75,6 +77,19 @@ function SolarCalculatorForm({ getUserData }) {
   const classes = useStyles();
   return (
     <div className="solar-calculator-form">
+      <div>
+        <p className='form-heading'>Only one more step to your result</p>
+        <p className="form-text">
+          Enter contact details and you will receive your individual results by
+          email in a free offer
+        </p>
+        <ul className='form-ul'>
+          <li>the maximum performance of your solar system</li>
+          <li>the solar yield / year</li>
+          <li>the savings / year</li>
+          <li>the period until the investment pays off</li>
+        </ul>
+      </div>
       <form className={classes.root} noValidate autoComplete="off">
         <RadioGroup
           aria-label="gender"
@@ -85,6 +100,7 @@ function SolarCalculatorForm({ getUserData }) {
           <FormControlLabel value="male" control={<Radio />} label="Male" />
           <FormControlLabel value="female" control={<Radio />} label="Female" />
         </RadioGroup>
+        <p>* Required field</p>
         <TextField
           id="outlined-basic"
           label="First name *"
@@ -137,7 +153,7 @@ function SolarCalculatorForm({ getUserData }) {
         <FormControlLabel
           value="end"
           control={<Checkbox color="primary" onClick={handleChangeIsAgre} />}
-          label="End"
+          label="I give consent"
           labelPlacement="end"
         />
         {isAgree ? (
