@@ -15,7 +15,7 @@ function SolarCalculator() {
   const [index, setIndex] = useState(0);
 
   const getUserData = (data) => {
-    setUserData(userData.concat(data));
+    data ? setUserData(userData.concat(data)) : console.log(data);
     setIndex(index + 1);
   };
 
