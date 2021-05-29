@@ -55,7 +55,7 @@ function SolarCalculator() {
             getUserData={getUserData}
           />
         ) : (
-          <SolarCalculatorForm getUserData={getUserData} />
+          <SolarCalculatorForm getUserData={getUserData} className="solarCalculator-form"/>
         )}
       </div>
     </div>

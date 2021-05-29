@@ -36,7 +36,7 @@
   justify-content: center;
 }
 .solar-card-content {
-  min-width: 340px !important;
+  min-width: 15rem !important;
   min-height: 250px !important;
   justify-items: center !important;
   display: grid;
