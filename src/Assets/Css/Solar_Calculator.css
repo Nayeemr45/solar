@@ -73,6 +73,16 @@
     grid-column-gap: 0px !important;
     grid-row-gap: 1rem !important;
   }
+  .solar-calculator-exceptionOne{
+    grid-template-columns: 0.2fr 0.2fr 0.2fr !important;
+    grid-column-gap: 0px !important;
+    grid-row-gap: 1rem !important;
+  }
+  .solar-calculator-exceptionTwo{
+    grid-template-columns: 0.2fr 0.2fr 0.2fr !important;
+    grid-column-gap: 0px !important;
+    grid-row-gap: 1rem !important;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -82,10 +92,36 @@
     align-items: start !important;
     align-content: start !important;
   }
+  .solar-calculator-exceptionOne{
+    grid-template-columns: 0.25fr !important;
+    height: 65rem !important;
+    align-items: start !important;
+    align-content: start !important;
+  }
+  .solar-calculator-exceptionTwo{
+    grid-template-columns: 0.25fr !important;
+    height: 65rem !important;
+    align-items: start !important;
+    align-content: start !important;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .solar-calculator {
+    height: 70rem !important;
+    align-items: start !important;
+    align-content: start !important;
+    grid-row-gap: 2rem;
+    grid-template-columns: 0.25fr !important;
+  }
+  .solar-calculator-exceptionOne{
+    height: 70rem !important;
+    align-items: start !important;
+    align-content: start !important;
+    grid-row-gap: 2rem;
+    grid-template-columns: 0.25fr !important;
+  }
+  .solar-calculator-exceptionTwo{
     height: 70rem !important;
     align-items: start !important;
     align-content: start !important;
