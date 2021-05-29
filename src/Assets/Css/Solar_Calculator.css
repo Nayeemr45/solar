@@ -210,4 +210,7 @@
     grid-column-gap: 0px !important;
     
   }
+  .solar-calculator-exceptionTwo {
+    height: 80rem;
+  }
 }

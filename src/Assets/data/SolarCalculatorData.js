@@ -61,7 +61,7 @@ export const SolarCalculatorData = [
     },
   ],
   [
-    { id: uuidv4(), text: "Flat roof", icon: icon41 },
+    { id: uuidv4(), text: "Flat roof", icon: <Icon11 /> },
     { id: uuidv4(), text: "Flat roof and carport", icon: <Icon12 /> },
     { id: uuidv4(), text: "Roof with incline", icon: <Icon13 /> },
     { id: uuidv4(), text: "Roof with incline and carport", icon: <Icon14 /> },
