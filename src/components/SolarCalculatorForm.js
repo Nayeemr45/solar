@@ -192,7 +192,8 @@ function SolarCalculatorForm({ getUserData }) {
             onChange={handleChangeSurName}
           />
         )}
-        {email === "" && !emailInit ? (
+        {(email === "" || !email.includes("@") || !email.includes(".com")) &&
+        !emailInit ? (
           <TextField
             error
             id="outlined-error-helper-text"
@@ -211,7 +212,7 @@ function SolarCalculatorForm({ getUserData }) {
             onChange={handleChangeEmail}
           />
         )}
-        {telephone === "" && !telephoneInit ? (
+        {(telephone === "" || isNaN(telephone)) && !telephoneInit ? (
           <TextField
             error
             id="outlined-error-helper-text"
