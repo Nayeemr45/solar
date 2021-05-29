@@ -10,7 +10,6 @@ import {
 import '../Assets/Css/Solar_Calculator.css';
 import {Box, Grid} from '@material-ui/core';
 import {People} from '@material-ui/icons';
-import * as api from '../api/index.js';
 
 function SolarCalculator() {
   const [SolarData, setSolarData] = useState(SolarCalculatorData);
@@ -25,9 +24,7 @@ function SolarCalculator() {
   const history = useHistory();
   const goHome = () => history.push('/');
 
-  const sentData = async (finalUserDataJSON) => {
-    const {data} = await api.sentData(finalUserDataJSON);
-  };
+
   useEffect(() => {
     if (index > 6) {
       let finalUserData = {
@@ -48,7 +45,6 @@ function SolarCalculator() {
       };
 
       let finalUserDataJSON = userData ? JSON.stringify(finalUserData) : '';
-      sentData(finalUserDataJSON);
 
       /* fetch('http://localhost:8000/contact', {
         method: 'POST',

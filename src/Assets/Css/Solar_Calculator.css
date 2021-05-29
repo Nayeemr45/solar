@@ -171,6 +171,25 @@
     grid-row-gap: 2rem;
     grid-template-columns: 0.25fr !important;
   }
+  .solar-calculator3{
+    display: grid;
+    grid-template-columns: 0.25fr;
+    grid-column-gap: 30px;
+    justify-content: center;
+    height: 80rem;
+    align-items: center;
+  }
+  .solar-calculator4{
+    display: grid;
+    grid-template-columns: 0.25fr;
+    grid-column-gap: 30px;
+    justify-content: center;
+    height: 65rem;
+    align-items: center;
+  }
+  .solar-calculator-exceptionTwo {
+    height: 80rem !important;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
