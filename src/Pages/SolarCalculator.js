@@ -43,8 +43,19 @@ function SolarCalculator() {
         zip: userData[6].zip,
       };
       let finalUserDataJSON = userData ? JSON.stringify(finalUserData) : "";
-      console.log(finalUserDataJSON);
-      goHome(); 
+      fetch('http://localhost/127.0.0.1:8000/contact ', {
+        method: 'POST',
+        body: finalUserDataJSON
+      }).then(function(response) {
+        console.log(response)
+        goHome();  
+      }).then(data => {
+        console.log('Success:', data);
+        goHome();  
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });;
     }
   }, [userData]);
 
