@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import SolarCalculatorCard from "../components/SolarCalculatorCard";
 import SolarCalculatorForm from "../components/SolarCalculatorForm";
 import SolarCalculatorDirection from "../components/SolarCalculatorDirection";
+import { useHistory } from "react-router-dom";
 import {
   SolarCalculatorData,
   SolarCalculatorQuestion,
@@ -19,6 +20,9 @@ function SolarCalculator() {
     data ? setUserData(userData.concat(data)) : console.log("");
     setIndex(index + 1);
   };
+
+  const history = useHistory();
+  const goHome = () => history.push("/");
 
   useEffect(() => {
     if (index > 6) {
@@ -40,6 +44,7 @@ function SolarCalculator() {
       };
       let finalUserDataJSON = userData ? JSON.stringify(finalUserData) : "";
       console.log(finalUserDataJSON);
+      goHome(); 
     }
   }, [userData]);
 
