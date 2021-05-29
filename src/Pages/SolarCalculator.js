@@ -16,7 +16,7 @@ function SolarCalculator() {
   const [index, setIndex] = useState(0);
 
   const getUserData = (data) => {
-    data ? setUserData(userData.concat(data)) : console.log('');
+    data ? setUserData(userData.concat(data)) : console.log("");
     setIndex(index + 1);
   };
 
@@ -38,15 +38,23 @@ function SolarCalculator() {
         telephone: userData[6].telephone,
         zip: userData[6].zip,
       };
-      let finalUserDataJSON = userData ? JSON.stringify(finalUserData) : '';
+      let finalUserDataJSON = userData ? JSON.stringify(finalUserData) : "";
       console.log(finalUserDataJSON);
-    } 
+    }
   }, [userData]);
 
   return (
     <div>
       <p className="solar-question">{SolarCalculatorQuestion[index]}</p>
-      <div className="solar-calculator">
+      <div
+        className={
+          index < 5
+            ? "solar-calculator"
+            : index < 6
+            ? "solar-calculator-exceptionOne"
+            : "solar-calculator-exceptionTwo"
+        }
+      >
         {index < 5 ? (
           SolarData[index].map((itemData) => (
             <Box className="solar-calculator-box" key={itemData.id}>

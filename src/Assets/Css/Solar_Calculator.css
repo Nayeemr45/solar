@@ -12,10 +12,27 @@
 }
 .solar-calculator {
   display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+  grid-column-gap: 30px;
+  justify-content: center;
+  height: 30rem;
+  align-items: center;
+  padding: 3rem;
+}
+.solar-calculator-exceptionOne{
+  display: grid;
   grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
   grid-column-gap: 30px;
   justify-content: center;
-  height: 65rem;
+  height: 30rem;
+  align-items: center;
+}
+.solar-calculator-exceptionTwo{
+  display: grid;
+  grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr;
+  grid-column-gap: 30px;
+  justify-content: center;
+  height: 70rem;
   align-items: center;
 }
 .solar-calculator-form-div {

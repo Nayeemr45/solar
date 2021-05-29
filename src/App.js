@@ -18,7 +18,7 @@ function App() {
       <Route
         path="/Contact"
         component={() => {
-          window.location.href = "";
+          window.location.href = "/";
           return null;
         }}
       />
