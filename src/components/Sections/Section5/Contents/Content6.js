@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Grid,
   Box,
@@ -6,10 +6,10 @@ import {
   Button,
   ListItemAvatar,
   Avatar,
-} from '@material-ui/core';
-import Icon4 from '../../../../Assets/Icons/icon4.svg';
+} from "@material-ui/core";
+import Icon4 from "../../../../Assets/Icons/icon4.svg";
 
-import Image from '../../../../Assets/Images/business-customer-service.png';
+import Image from "../../../../Assets/Images/business-customer-service.png";
 
 const Content6 = () => {
   return (
@@ -17,7 +17,7 @@ const Content6 = () => {
       <Grid container className="content-6-grid">
         <Grid item xs={1} sm={1}></Grid>
         <Grid item xs={6} sm={5}>
-          <img src={Image} className="content-6-img" alt={''} />
+          <img src={Image} className="content-6-img" alt={""} />
         </Grid>
         <Grid item xs={6} sm={6}></Grid>
       </Grid>
@@ -34,36 +34,28 @@ const Content6 = () => {
                   className="content-6-heading"
                 >
                   Would you like to speak <br />
-                  to us personally?{' '}
+                  to us personally?{" "}
                 </Typography>
                 <Typography
                   variant="h4"
                   gutterBottom
                   className="content-6-list"
                 >
-                  We are happy to answer all of your open questions.
+                  We are happy to answer all of your questions.
                 </Typography>
                 <Typography
                   variant="h4"
                   gutterBottom
                   className="content-6-list"
                 >
-                  Tel: 0098-3763983
+                  Tel: +34 971 416 757
                 </Typography>
                 <Typography
                   variant="h4"
                   gutterBottom
                   className="content-6-list"
                 >
-                  Mon to Fri: 8 a.m. - 8 p.m. Sat: 9 a.m. - 2 p.m. Free of
-                  charge from the German landline network
-                </Typography>
-                <Typography
-                  variant="h4"
-                  gutterBottom
-                  className="content-6-list"
-                >
-                  Are you a business customer?
+                  Mon to Fri: 9 a.m. - 6 p.m.
                 </Typography>
                 <Button className="button">
                   Contact us here

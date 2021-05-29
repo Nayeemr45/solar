@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Typography,
   Grid,
@@ -6,10 +6,10 @@ import {
   ListItemAvatar,
   Avatar,
   Box,
-} from '@material-ui/core';
-import Icon4 from '../../../../Assets/Icons/icon4.svg';
-import '../../../../Assets/Css/Section5.css';
-import SVG from './Content3_svg';
+} from "@material-ui/core";
+import Icon4 from "../../../../Assets/Icons/icon4.svg";
+import "../../../../Assets/Css/Section5.css";
+import SVG from "./Content3_svg";
 const Content3 = () => {
   return (
     <div className="content-3">
@@ -43,7 +43,7 @@ const Content3 = () => {
                   gutterBottom
                   className="content-3-list"
                 >
-                  Additional income from the EEG feed-in allowance
+                  Additional income from government renewable energy subsidies
                 </Typography>
               </div>
               <div className="content-3-list-div">
@@ -95,18 +95,6 @@ const Content3 = () => {
                   className="content-3-list"
                 >
                   Photovoltaic systems are low maintenance and trouble-free
-                </Typography>
-              </div>
-              <div className="content-3-list-div">
-                <span className="content-3-list-icon">
-                  <SVG />
-                </span>
-                <Typography
-                  variant="h4"
-                  gutterBottom
-                  className="content-3-list"
-                >
-                  25-year performance guarantee * on E.ON solar systems
                 </Typography>
               </div>
             </Grid>

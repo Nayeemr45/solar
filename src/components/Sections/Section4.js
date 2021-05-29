@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Avatar,
   Box,
@@ -6,11 +6,11 @@ import {
   Typography,
   Button,
   ListItemAvatar,
-} from '@material-ui/core';
-import '../../Assets/Css/Section_4.css';
-import Icon5 from '../../Assets/Icons/icon4.svg';
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
+} from "@material-ui/core";
+import "../../Assets/Css/Section_4.css";
+import Icon5 from "../../Assets/Icons/icon4.svg";
+import Card from "@material-ui/core/Card";
+import CardContent from "@material-ui/core/CardContent";
 
 const Section4 = () => {
   return (
@@ -20,7 +20,7 @@ const Section4 = () => {
         <Grid item xs={10} sm={6}>
           <div className="sectoin-4-heading-div">
             <Typography variant="h4" gutterBottom className="sectoin-4-heading">
-              Quite Simply To Your{' '}
+              Quite Simply To Your{" "}
               <span className="text-color">Own Solar Power</span>
             </Typography>
           </div>
@@ -205,7 +205,7 @@ const Section4 = () => {
             <Card className="section-4-card">
               <CardContent className="section-4-card-content">
                 <Grid>
-                  <Grid style={{display: 'grid', justifyContent: 'center'}}>
+                  <Grid style={{ display: "grid", justifyContent: "center" }}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
@@ -373,9 +373,9 @@ const Section4 = () => {
                   </Grid>
                   <Grid
                     style={{
-                      display: 'grid',
-                      justifyContent: 'center',
-                      paddingTop: '15px',
+                      display: "grid",
+                      justifyContent: "center",
+                      paddingTop: "15px",
                     }}
                   >
                     <svg
@@ -422,15 +422,13 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Request a quote with our solar calculator
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -438,7 +436,7 @@ const Section4 = () => {
             <Card className="section-4-card">
               <CardContent className="section-4-card-content">
                 <Grid>
-                  <Grid style={{display: 'grid', justifyContent: 'center'}}>
+                  <Grid style={{ display: "grid", justifyContent: "center" }}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
@@ -514,9 +512,9 @@ const Section4 = () => {
                   </Grid>
                   <Grid
                     style={{
-                      display: 'grid',
-                      justifyContent: 'center',
-                      paddingTop: '15px',
+                      display: "grid",
+                      justifyContent: "center",
+                      paddingTop: "15px",
                     }}
                   >
                     <svg
@@ -563,15 +561,13 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Receive a full study on your solar potential
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -579,7 +575,7 @@ const Section4 = () => {
             <Card className="section-4-card">
               <CardContent className="section-4-card-content">
                 <Grid>
-                  <Grid style={{display: 'grid', justifyContent: 'center'}}>
+                  <Grid style={{ display: "grid", justifyContent: "center" }}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
@@ -639,9 +635,9 @@ const Section4 = () => {
                   </Grid>
                   <Grid
                     style={{
-                      display: 'grid',
-                      justifyContent: 'center',
-                      paddingTop: '15px',
+                      display: "grid",
+                      justifyContent: "center",
+                      paddingTop: "15px",
                     }}
                   >
                     <svg
@@ -688,15 +684,13 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Installation by our experts
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
@@ -704,7 +698,7 @@ const Section4 = () => {
             <Card className="section-4-card">
               <CardContent className="section-4-card-content">
                 <Grid>
-                  <Grid style={{display: 'grid', justifyContent: 'center'}}>
+                  <Grid style={{ display: "grid", justifyContent: "center" }}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="228"
@@ -870,9 +864,9 @@ const Section4 = () => {
                   </Grid>
                   <Grid
                     style={{
-                      display: 'grid',
-                      justifyContent: 'center',
-                      paddingTop: '15px',
+                      display: "grid",
+                      justifyContent: "center",
+                      paddingTop: "15px",
                     }}
                   >
                     <svg
@@ -919,15 +913,14 @@ const Section4 = () => {
                   component="h2"
                   className="section-4-card-title"
                 >
-                  Unverbindliches Angebot anfordern
+                  Start using solar, save, benefit with subsidies and reduce
+                  your carbon footprint
                 </Typography>
                 <Typography
                   variant="body2"
                   component="p"
                   className="section-4-card-sub-title"
-                >
-                  Mit unserem solarrenchner
-                </Typography>
+                ></Typography>
               </CardContent>
             </Card>
           </Grid>
