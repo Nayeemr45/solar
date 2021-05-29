@@ -1,5 +1,5 @@
-import React from 'react';
-import {makeStyles} from '@material-ui/core/styles';
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
 import {
   Grid,
   Button,
@@ -11,30 +11,30 @@ import {
   ListItemText,
   ListItemAvatar,
   Container,
-} from '@material-ui/core';
-import {Link as RouterLink} from 'react-router-dom';
-import SolarOne from '../../Assets/Images/Artboard1.jpg';
-import Icon1 from '../../Assets/Icons/icon1.svg';
-import Icon2 from '../../Assets/Icons/icon2.svg';
-import Icon3 from '../../Assets/Icons/icon3.svg';
-import Icon4 from '../../Assets/Icons/icon4.svg';
-import Box from '@material-ui/core/Box';
-import '../../Assets/Css/Section1.css';
+} from "@material-ui/core";
+import { Link as RouterLink } from "react-router-dom";
+import SolarOne from "../../Assets/Images/Artboard1.jpg";
+import Icon1 from "../../Assets/Icons/icon1.svg";
+import Icon2 from "../../Assets/Icons/icon2.svg";
+import Icon3 from "../../Assets/Icons/icon3.svg";
+import Icon4 from "../../Assets/Icons/icon4.svg";
+import Box from "@material-ui/core/Box";
+import "../../Assets/Css/Section1.css";
 
 const useStyles = makeStyles((theme) => ({
   container: {
-    width: '100%',
-    margin: '0px',
-    padding: '0px',
+    width: "100%",
+    margin: "0px",
+    padding: "0px",
   },
   root: {
     flexGrow: 1,
   },
   main_btn: {
-    textTransform: 'none',
-    fontSize: '10px',
-    background: 'var(--button-color)',
-    color: 'var(--text-color2)',
+    textTransform: "none",
+    fontSize: "10px",
+    background: "var(--button-color)",
+    color: "var(--text-color2)",
   },
 }));
 const Section1 = () => {

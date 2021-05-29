@@ -37,6 +37,7 @@ import Icon11 from "../../components/Icons/Icon11";
 import Icon12 from "../../components/Icons/Icon12";
 import Icon13 from "../../components/Icons/Icon13";
 import Icon14 from "../../components/Icons/Icon14";
+import Icon15 from "../../components/Icons/Icon15";
 
 export const SolarCalculatorData = [
   [
@@ -53,13 +54,18 @@ export const SolarCalculatorData = [
   ],
   [
     { id: uuidv4(), text: "Throughout the day", icon: <Icon9 /> },
-    { id: uuidv4(), text: "In the mornings and the evenings", icon: <Icon10 /> },
+    {
+      id: uuidv4(),
+      text: "In the mornings and the evenings",
+      icon: <Icon10 />,
+    },
   ],
   [
-    { id: uuidv4(), text: "approx. 15 °", icon: <Icon11 /> },
-    { id: uuidv4(), text: "approx. 30 °", icon: <Icon12 />},
-    { id: uuidv4(), text: "approx. 45 °", icon: <Icon13 /> },
-    { id: uuidv4(), text: "approx. 60 °", icon: <Icon14 /> },
+    { id: uuidv4(), text: "Flat roof", icon: <Icon11 /> },
+    { id: uuidv4(), text: "Flat roof and carport", icon: <Icon12 /> },
+    { id: uuidv4(), text: "Roof with incline", icon: <Icon13 /> },
+    { id: uuidv4(), text: "Roof with incline and carport", icon: <Icon14 /> },
+    { id: uuidv4(), text: "Carport only", icon: <Icon15 /> },
   ],
   [
     { id: uuidv4(), text: "approx. 20 m²", icon: <Icon5 /> },
@@ -68,22 +74,22 @@ export const SolarCalculatorData = [
     { id: uuidv4(), text: "approx. 60 m² and more", icon: <Icon8 /> },
   ],
   [
-    { id: uuidv4(), text: "N", icon: <Direction_N/> },
-    { id: uuidv4(), text: "NW", icon: <Direction_N/> },
-    { id: uuidv4(), text: "NE", icon: <Direction_N/>},
-    { id: uuidv4(), text: "E", icon: <Direction_N/> },
-    { id: uuidv4(), text: "SE", icon: <Direction_N/> },
-    { id: uuidv4(), text: "S", icon: <Direction_N/> },
-    { id: uuidv4(), text: "Sw", icon: <Direction_N/> },
-    { id: uuidv4(), text: "w", icon: <Direction_N/> },
+    { id: uuidv4(), text: "N", icon: <Direction_N /> },
+    { id: uuidv4(), text: "NW", icon: <Direction_N /> },
+    { id: uuidv4(), text: "NE", icon: <Direction_N /> },
+    { id: uuidv4(), text: "E", icon: <Direction_N /> },
+    { id: uuidv4(), text: "SE", icon: <Direction_N /> },
+    { id: uuidv4(), text: "S", icon: <Direction_N /> },
+    { id: uuidv4(), text: "Sw", icon: <Direction_N /> },
+    { id: uuidv4(), text: "w", icon: <Direction_N /> },
   ],
 ];
 
 export const SolarCalculatorQuestion = [
-  'How many people live in your household?',
-  'What is your average electricity consumption per year?',
-  'What time of the day do you mostly use electricity?',
-  'How steep is the slope of your roof?',
-  'How big is the usable roof area?',
-  'In which main direction is your roof surface oriented?',
+  "How many people live in your household?",
+  "What is your average electricity consumption per year?",
+  "What time of the day do you mostly use electricity?",
+  "How steep is the slope of your roof?",
+  "How big is the usable roof area?",
+  "In which main direction is your roof surface oriented?",
 ];

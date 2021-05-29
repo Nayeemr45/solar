@@ -23,7 +23,7 @@
   grid-column-gap: 0px !important;
 }
 .heading {
-  color: var(--text-color2) !important;
+  color: #fff0 !important;
   font-size: 119px !important;
   font-weight: 600 !important;
   opacity: 0.1;
@@ -72,7 +72,7 @@
   font-family: "Gotham-Medium" !important;
   text-transform: none !important;
 }
-.avatar svg{
+.avatar svg {
   fill: var(--button-icon);
 }
 .icon {
