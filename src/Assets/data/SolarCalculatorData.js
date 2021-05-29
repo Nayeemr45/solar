@@ -9,7 +9,7 @@ import icon23 from "../Icons/icon23.svg";
 import icon24 from "../Icons/icon24.svg";
 import icon31 from "../Icons/icon31.svg";
 import icon32 from "../Icons/icon32.svg";
-import icon41 from "../Icons/icon41.svg";
+import icon41 from "../Icons/icon42.svg";
 import icon42 from "../Icons/icon42.svg";
 import icon43 from "../Icons/icon43.svg";
 import icon44 from "../Icons/icon44.svg";
@@ -61,7 +61,7 @@ export const SolarCalculatorData = [
     },
   ],
   [
-    { id: uuidv4(), text: "Flat roof", icon: <Icon11 /> },
+    { id: uuidv4(), text: "Flat roof", icon: icon41 },
     { id: uuidv4(), text: "Flat roof and carport", icon: <Icon12 /> },
     { id: uuidv4(), text: "Roof with incline", icon: <Icon13 /> },
     { id: uuidv4(), text: "Roof with incline and carport", icon: <Icon14 /> },

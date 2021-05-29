@@ -17,6 +17,41 @@ const useStyles = makeStyles((theme) => ({
       width: "23ch",
     },
   },
+  "@media (min-width: 481px) and (max-width: 768px)": {
+    root: {
+      "& > *": {
+        width: "45ch",
+      },
+    },
+  },
+  "@media (min-width: 769px) and (max-width: 1024px)": {
+    root: {
+      "& > *": {
+        width: "50ch",
+      },
+    },
+  },
+  "@media (min-width: 1025px) and (max-width: 1200px)": {
+    root: {
+      "& > *": {
+        width: "23ch",
+      },
+    },
+  },
+  "@media (min-width: 1201px) and (max-width: 1440px)": {
+    root: {
+      "& > *": {
+        width: "30ch",
+      },
+    },
+  },
+  "@media (min-width: 1441px) and (max-width: 2560px)": {
+    root: {
+      "& > *": {
+        width: "45ch",
+      },
+    },
+  },
 }));
 
 function SolarCalculatorForm({ getUserData }) {
